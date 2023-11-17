@@ -4,11 +4,10 @@
 1. Home page
 * Brief intro 
 * Why work with us
-2. Meet the team
-    - After Friday November 24
+2. Meet the team (Chloe) 
 3. Our services and past projects
     - Plain text by Monday November 27 and page done by Monday December 4 
-4. Steeler bio
+4. Steeler bio (Chloe)
 5. Skyler bio
 6. Mocha bio
     - Plain text by Monday November 27 and page done by Monday December 4
@@ -38,6 +37,9 @@ Week 14
 * Make sure any links or interactive (JavaScript) elements are working
 * Have website ready on Thursday night to publish! 
 
+All Weeks
+* Continuously check-in with each other! 
+
 ## Together:
 1. Choose a template and fully understand how it works by Thursday November 23, so we can meet with Shawn during Friday's lab
 1. Work on CSS together
@@ -47,9 +49,10 @@ Week 14
 2. Create/edit html code for a "Meet the Team" page (begin after Week 12 and work on it throughout Week 13)
     * Showcase all 5 pet profiles
     * Once the template is approved by Shawn, it can adhere to the layout (CSS) of our chosen template (so after Friday the 24th).
-3. Create/edit html code for my pet profile of Steeler (throughout Week 12)
+    * Great w2schools resource on CSS formatting for this kind of page to help me: https://www.w3schools.com/howto/howto_css_team.asp 
+3. Create/edit html code for my pet profile of Steeler (throughout Week 13)
     * Content will include his bio and the services he provides for our company. (interested in hydrology/wetlands, likes mapping in ArcGIS, and enjoys field work collecting stream data, water quality samples, and vegetation ID). 
-    * Layout will match template's CSS 
+4. Check in routinely for group feedback
 
 ## Mengjie:
 
