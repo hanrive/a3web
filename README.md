@@ -20,8 +20,6 @@
     - Plain text by Sunday November 26 and page done by Thursday November 30
 
 ## Overall General Timeline
-<<<<<<< HEAD
-=======
 Week 11 
 * All have VS Code and Github linked to contribute to webpage's code 
 
@@ -36,7 +34,6 @@ Week 13
 
 Week 14 
 * Have website ready on Thursday!
->>>>>>> 2e594e1cd6a38def5e26f7368869438b08ff60cc
 
 1. Content -> Week 12
     - November 25
