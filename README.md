@@ -2,8 +2,8 @@
 
 ## Pages and Timeline 
 1. Home page
--> Brief intro 
--> Why work with us
+* Brief intro 
+* Why work with us
 2. Meet the team
     - After Friday November 24
 3. Our services and past projects
@@ -24,32 +24,30 @@ Week 11
 * All have VS Code and Github linked to contribute to webpage's code 
 
 Week 12
-* Plain text (content) ready to be placed into html document 
+* Have plain text (actual webpage content) ready to be placed into html document 
 * Template chosen and approved by Shawn 
 * Work on individual page html code
 
 Week 13
 * Continue working on individual html code
-* Work on cohesiveness of webpages to ensure individual pages follow the template 
+* Make edits and updates to CSS together as needed 
+* Check in with each other to ensure cohesiveness of webpages and that individual pages follow the template 
 
 Week 14 
-* Have website ready on Thursday!
-
-1. Content -> Week 12
-    - November 25
-2. CSS -> Week 13
-    - December 2 
+* Ensure all webpages look cohesive
+* Make sure any links or interactive (JavaScript) elements are working
+* Have website ready on Thursday night to publish! 
 
 ## Together:
-
 1. Choose a template and fully understand how it works by Thursday November 23, so we can meet with Shawn during Friday's lab
 1. Work on CSS together
 
 ## Chloe:
-1. Create/edit html code for a "Meet the Team" page
+1. Write plain text content so it is ready to be placed into the html document for display purposes (end of Week 12)
+2. Create/edit html code for a "Meet the Team" page (begin after Week 12 and work on it throughout Week 13)
     * Showcase all 5 pet profiles
     * Once the template is approved by Shawn, it can adhere to the layout (CSS) of our chosen template (so after Friday the 24th).
-2. Create/edit html code for my pet profile (Steeler's)
+3. Create/edit html code for my pet profile of Steeler (throughout Week 12)
     * Content will include his bio and the services he provides for our company. (interested in hydrology/wetlands, likes mapping in ArcGIS, and enjoys field work collecting stream data, water quality samples, and vegetation ID). 
     * Layout will match template's CSS 
 
@@ -61,17 +59,14 @@ Week 14
 ## Mengyuan:
 
 1. Page 1 - Mocha’s bio/resume
-<<<<<<< HEAD
    -Create resume page for Mocha, interested in remote sensing and land classifications
 1. Page 2 - Services and example projects
    -Insert two past projects: satellite image retrieve and a land classification map.  
     Short description on each project highlighting the major progress done with the project.
    Timeline: the plain text should be finished before Nov 27 and the pages should be finished before Dec 4
-=======
             -Create resume page for Mocha, past experiences and interest 
 1. Page 2 - Services we provide
             - Field we specialized in: Hydrology: water quality monitoring and sample collections; remote sensing: satellite image retreive and classifications; forestry: forest inventation monitoring and analysis; Map design
->>>>>>> 1b062339bdfa51f7f2e23d92818e4dd71b64ac2c
 
 ## Hannah:
 
