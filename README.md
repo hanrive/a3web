@@ -1,6 +1,6 @@
 # a3web README.md
 
-## Pages and Overall Timeline 
+## Pages and Timeline 
 1. Home page
 -> Brief intro 
 -> Why work with us
@@ -17,6 +17,12 @@
 8. Rocky bio
 9. Contact
     - Plain text by Sunday November 26 and page done by Thursday November 30
+
+## Overall General Timeline
+1. Content -> Week 12
+    - November 25
+2. CSS -> Week 13
+    - December 2 
 
 ## Together:
 1. Choose a template and fully understand how it works by Thursday November 23, so we can meet with Shawn during Friday's lab
