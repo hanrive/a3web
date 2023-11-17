@@ -9,6 +9,7 @@
     - Plain text by Monday November 27 and page done by Monday December 4 
 4. Steeler bio (Chloe)
 5. Skyler bio
+    -Plain text by Monday November 27 and page done by Monday December 4
 6. Mocha bio
     - Plain text by Monday November 27 and page done by Monday December 4
 7. Phoebe bio
@@ -55,9 +56,21 @@ All Weeks
 4. Check in routinely for group feedback
 
 ## Mengjie:
-
-1. Page 1 - Skyler’s bio/resume
+Timeline 
+Week 11 Determine the content for the pages.
+Week 12 Pick template with group and split the CSS/Javascript roles. Start HTML Coding 
+Week 13 Finish HTML coding. Start CSS coding
+Week 14 Finish CSS. Final review and submit.
+1. Page 1 - Skyler’s bio/resume 
+   -Skyler's qualifications. He's a hard worker who loves people!
+   -He's really good with human/health geography and GIS. Look at social and economic geography is his strong suit.
+   -He's an adovocate for social justice and human rights
 1. Page 2 - Past Projects
+   -UN consultant for conflict zones
+       -Print description. No map example provided for security reasons 
+   -Tree Location map for Ministry of Natural Resources and Forestry
+   -Flood Map Analysis for Lousiana
+   -Nike spatial data analysis to determine location suitability for future stores 
 
 ## Mengyuan:
 
