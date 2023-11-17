@@ -31,8 +31,10 @@
 ## Chloe:
 1. Create/edit html code for a "Meet the Team" page
     * Showcase all 5 pet profiles
-    * Once the template is approved by Shawn, it can adhere to the layout (css) of our chosen template (so after Friday the 24th).
-2. Create/edit html code for my pet profile (Steeler's). Content will include his bio and the services he provides for our company. (interested in hydrology/wetlands, likes mapping in ArcGIS, and enjoys field work collecting stream data, water quality samples, and vegetation ID). 
+    * Once the template is approved by Shawn, it can adhere to the layout (CSS) of our chosen template (so after Friday the 24th).
+2. Create/edit html code for my pet profile (Steeler's)
+    * Content will include his bio and the services he provides for our company. (interested in hydrology/wetlands, likes mapping in ArcGIS, and enjoys field work collecting stream data, water quality samples, and vegetation ID). 
+    * Layout will match template's CSS 
 
 ## Mengjie:
 1. Page 1 - Skyler’s bio/resume
