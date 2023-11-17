@@ -21,23 +21,6 @@
    - Plain text by Sunday November 26 and page done by Thursday November 30
 
 ## Overall General Timeline
-<<<<<<< HEAD
-=======
-Week 11 
-* All have VS Code and Github linked to contribute to webpage's code 
-
-Week 12
-* Plain text (content) ready to be placed into html document 
-* Template chosen and approved by Shawn 
-* Work on individual page html code
-
-Week 13
-* Continue working on individual html code
-* Work on cohesiveness of webpages to ensure individual pages follow the template 
-
-Week 14 
-* Have website ready on Thursday!
->>>>>>> 2e594e1cd6a38def5e26f7368869438b08ff60cc
 
 1. Content -> Week 12
    - November 25
@@ -64,20 +47,11 @@ Week 14
 ## Mengyuan:
 
 1. Page 1 - Mocha’s bio/resume
-<<<<<<< HEAD
    -Create resume page for Mocha, interested in remote sensing and land classifications
 1. Page 2 - Services and example projects
    -Insert two past projects: satellite image retrieve and a land classification map.  
     Short description on each project highlighting the major progress done with the project.
    Timeline: the plain text should be finished before Nov 27 and the pages should be finished before Dec 4
-=======
-            -Create resume page for Mocha, interested in remote sensing and land classifications 
-1. Page 2 - Services and example projects 
-            -Insert two past projects: satellite image retrieve and a land classification map.      
-            Short description on each project highlighting the major progress done with the project. 
-    Timeline: the plain text should be finished before Nov 27 and the pages should be finished before Dec 4 
-
->>>>>>> 2e594e1cd6a38def5e26f7368869438b08ff60cc
 
 ## Hannah:
 
