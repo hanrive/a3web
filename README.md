@@ -1,22 +1,22 @@
 # a3web README.md
 
-## Pages and Timeline 
+## Pages
 1. Home page
--> Brief intro 
--> Why work with us
+* Brief intro 
+* Why work with us
 2. Meet the team
-    - After Friday November 24
+* Overview of all 5 members 
 3. Our services and past projects
-    - Plain text by Monday November 27 and page done by Monday December 4 
+* Plain text by Monday November 27 and page done by Monday December 4 
 4. Steeler bio
 5. Skyler bio
 6. Mocha bio
-    - Plain text by Monday November 27 and page done by Monday December 4
+* Plain text by Monday November 27 and page done by Monday December 4
 7. Phoebe bio
-    - Plain text by Sunday November 26 and page done by Thursday November 30
+* Plain text by Sunday November 26 and page done by Thursday November 30
 8. Rocky bio
 9. Contact
-    - Plain text by Sunday November 26 and page done by Thursday November 30
+* Plain text by Sunday November 26 and page done by Thursday November 30
 
 ## Overall General Timeline
 Week 11 
@@ -30,24 +30,24 @@ Week 12
 Week 13
 * Continue working on individual html code
 * Work on cohesiveness of webpages to ensure individual pages follow the template 
+* Make edits/updates to CSS as needed
 
 Week 14 
+* Ensure any and all interactive portions of the website works
+* Be sure webpages are cohesive 
+* Make final edits to html code and CSS as needed 
 * Have website ready on Thursday!
-
-1. Content -> Week 12
-    - November 25
-2. CSS -> Week 13
-    - December 2 
 
 ## Together:
 1. Choose a template and fully understand how it works by Thursday November 23, so we can meet with Shawn during Friday's lab
 1. Work on CSS together
 
 ## Chloe:
-1. Create/edit html code for a "Meet the Team" page
+1. Write plain text content for both pages I am responsible for (by end of Week 12)
+2. Create/edit html code for a "Meet the Team" page (Week 13)
     * Showcase all 5 pet profiles
     * Once the template is approved by Shawn, it can adhere to the layout (CSS) of our chosen template (so after Friday the 24th).
-2. Create/edit html code for my pet profile (Steeler's)
+3. Create/edit html code for my pet profile of Steeler (Week 13)
     * Content will include his bio and the services he provides for our company. (interested in hydrology/wetlands, likes mapping in ArcGIS, and enjoys field work collecting stream data, water quality samples, and vegetation ID). 
     * Layout will match template's CSS 
 
