@@ -47,11 +47,17 @@
 ## Mengyuan:
 
 1. Page 1 - Mocha’s bio/resume
+<<<<<<< HEAD
    -Create resume page for Mocha, interested in remote sensing and land classifications
 1. Page 2 - Services and example projects
    -Insert two past projects: satellite image retrieve and a land classification map.  
     Short description on each project highlighting the major progress done with the project.
    Timeline: the plain text should be finished before Nov 27 and the pages should be finished before Dec 4
+=======
+            -Create resume page for Mocha, past experiences and interest 
+1. Page 2 - Services we provide
+            - Field we specialized in: Hydrology: water quality monitoring and sample collections; remote sensing: satellite image retreive and classifications; forestry: forest inventation monitoring and analysis; Map design
+>>>>>>> 1b062339bdfa51f7f2e23d92818e4dd71b64ac2c
 
 ## Hannah:
 
