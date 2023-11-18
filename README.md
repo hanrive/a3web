@@ -1,23 +1,21 @@
 # a3web README.md
 
 ## Pages and Timeline 
-1. Home page
-* Brief intro 
-* Why work with us
-2. Meet the team (Chloe) 
-3. Our services and past projects
+1. Home page *(Aysha)*
+2. Meet the team *(Chloe)*
+3. Our services and past projects *(Mengyuan) / (Mengjie)*
     - Plain text by Monday November 27 and page done by Monday December 4 
-4. Steeler bio (Chloe)
-5. Skyler bio
+4. Steeler bio *(Chloe)*
+5. Skyler bio *(Mengjie)*
     -Plain text by Monday November 27 and page done by Monday December 4
-6. Mocha bio
+6. Mocha bio *(Mengyuan)*
     - Plain text by Monday November 27 and page done by Monday December 4
-7. Phoebe bio
-    - Plain text by Sunday November 26 and page done by Thursday November 30
-8. Rocky bio
+7. Phoebe bio *(Hannah)*
+    - Plain text by Monday November 27 and page done by Monday December 4
+8. Rocky bio *(Aysha)*
    - Plain text by Monday November 27 and page done by Dec 01
-9. Contact
-    - Plain text by Sunday November 26 and page done by Thursday November 30
+9. Contact *(Hannah)*
+    - Plain text by Monday November 27 and page done by Monday December 4
 
 ## Overall General Timeline
 Week 11 
