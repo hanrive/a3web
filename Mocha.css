@@ -173,8 +173,76 @@ p{
     border: 2px solid #513C2C;
     background-color: whitesmoke;  
 }
+/* Using Aysha template for our individual staff pages. Everyone will edit to their own visual preferences  */
+/* profile right side content formatting and display */
+.right_container {
+  padding-left: 50px;
+  background-color: #f0e1a1;
+  height: 1200px;
+  color: #550505;
+}
 
+.right-subheading {
+  margin: 50px;
+  background-color: #dab778;
+  padding-top: 30px;
+}
 
+/* directly against h1 */
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color:#550505;
+}
+
+/* Education content */
+.content-one {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-two {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-three {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/* Professional experience subheading and content */
+.right-subheading2 {
+  margin: 40px;
+  background-color: #dab778;
+  padding-top: 30px;
+}
+
+.right-content2 {
+  max-width: 1000px;
+}
+
+.content-one2 {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-one2 span {
+  font-style: italic;
+}
+
+.content-two2 {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-two2 span {
+  font-style: italic;
+}
+
+.content-three2 span {
+  font-style: italic;
+}
 /*Display stile for the Education section*/
 .education{
     line-height: 50px;
