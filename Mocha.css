@@ -8,6 +8,38 @@ body {
     font-family: 'Courier New', Courier, monospace; 
     background-color: seashell;
 }
+
+/* Using button from Aysha CSS will change the colour/size */
+/* contact button link feature */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #966219ac;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* button/toggle hover feature and color change */
+.button:hover {
+  background: #550505;
+}
+
+/* coloe change when hovering over links to publication and home pages */
+.navigation_link:hover {
+  color: #fff;
+}
+
+
+
+
 /* NAVBAR SETTINGS AND DISPLAY This is from Aysha CSS We are going to use her Navbar instead of Mengyuans */
 .navigation {
   background: #dab778;
