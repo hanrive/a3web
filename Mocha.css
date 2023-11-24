@@ -194,6 +194,53 @@ p{
     justify-content:center;
 
 }
+/* Contact Page taken from Aysha CSS will be updating to fit our colour scheme Hannah */
+/* ****CONTACT PAGE**** */
+.contact-container {
+    align-content: center;
+}
+
+.contact-content {
+    background-color:#dab778;
+    margin-left: 450px;
+    margin-top: 160px;
+    width: 1000px;
+    height: 500px;
+    justify-items: center;
+}
+
+/* paragraph formatting and display on contact page */
+.contact-statement {
+    text-align: center;
+    background-color:#f0e1a1;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 1000px;
+    padding-bottom: 10px;
+    color:#550505;
+}
+
+/* contact and information list */
+.contact-email {
+    padding: 50px;
+    text-align: center;
+    color:#550505;
+}
+
+/* underline separaetly the absolute url links to external web pages */
+.contact-email span {
+    text-decoration: underline;
+}
+
+.contact-linkedin {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 /*The design of the items inside the boxes*/
 .flexbox-item {
