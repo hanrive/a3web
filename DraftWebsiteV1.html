@@ -1,0 +1,108 @@
+
+
+<!-- Doctype and Meta Tags -->
+<!DOCTYPE html>
+<html lang="en"> <!-- declares the language of the webpage -->
+
+<head> <!-- the <head> element is a container for metadata -->
+<title>index.html</title>
+<!-- meta is information about the document, always go inside the <head> -->
+<meta name="viewpoint" content="width=device-width, initial-scale=1"> <!-- setting the viewpoint so it looks good on all devices, w3schools -->
+<meta name="author" content="Hannah Rivet"> <!-- defining the author of the page, me, w3schools -->
+<link rel="stylesheet" type="text/css" href="Hstyle-index.css"/> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
+<link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- linking to favicon, the little image in the browser tab -->
+</head>
+
+
+<!-- Body text and stuff?? -->
+<body> <!-- the <body> element contains all the contents of an HTML document (headings, paragraphs, images, hyperlinks, tables, lists, etc.) -->
+
+<!-- Top top header -->
+<header>
+<div class="backgroundheader1">
+	<div class="header">
+		<h1>Paw Consulting Group</h1>
+		<p>Protecting people, environment, planet</p>
+	</div>
+</div>
+</header>
+
+
+<div id="navbar">
+  <nav>
+	<ul>
+		<li>
+			<a href="index.html">Home</a>
+		</li>
+		<li>
+			<a href="team.html">Meet the Team</a>
+		</li>
+		<li>
+			<a href="#services">services</a>
+		</li>
+        <li>
+			<a href="#Past Projects">Past Projects</a>
+		</li>
+        <li>
+			<a href="#Contact" class="button">Contact</a>
+		</li>
+	</ul>
+  </nav>
+</div>
+
+<!-- Text under navigation bar -->
+<div class="wrapper">
+	<div class="text-box">
+		<h2> Paw Consulting </h2>
+		<h3> Your next problem solver </h3>
+		<h3> Our services and why chose us </h3>
+			<p>Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good 
+			Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good Because we are good</p>
+		        <!--Flexbox for the list of services-->
+		
+
+		<h3><a href="team.html">Meet the Team</a></h3>
+            <div class = "flexbox-container">
+                <div class="flexbox-item">Portrait photography</div>
+                <div class="flexbox-item">Product photography</div>
+                <div class="flexbox-item">Product modelling</div>
+                <div class="flexbox-item">Fashion modelling</div>
+                <div class="flexbox-item">Product branding</div>
+            </div>
+            <hr> 
+		<h3> Past Projects </h3>
+		<!-- Need to add link and images for the following -->
+		<!-- The photos should be displayed in the same line next to each other -->
+		<p>Hydrology</p>
+		<img src="image/image16.jpg" alt="Mocha's Photo6">
+		<p>remote sensing</p>
+		<img src="image/image16.jpg" alt="Mocha's Photo6">
+		<p>Forestry</p>
+		<img src="image/image16.jpg" alt="Mocha's Photo6">
+		<p>Map design</p>
+		<img src="image/image16.jpg" alt="Mocha's Photo6">
+	</div>
+</div>
+
+
+<!-- The contact section was taken from : https://www.w3schools.com/w3css/tryw3css_templates_gourmet_catering.htm -->
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h3>Contact</h1><br>
+    <p>We offer free project consulting prior to starting with the project. Feel free to contact us any time</p>
+    <p class="w3-text-blue-grey w3-large"><b>200 Albert St S, Lindsay, ON K9V 5E6</b></p>
+    <p>You can also contact us by phone 12345678 or email pawconsulting@pawconsulting.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+</body>
+
+<footer></footer>
+
+</html>

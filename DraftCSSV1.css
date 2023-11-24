@@ -1,0 +1,173 @@
+/* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+.backgroundheader1 { /* the background image for the header on index.html*/
+	background-image: url("01_BG_ Panorama.jpg");
+	/* NO-REPEAT - background image is not repeated and only displayed once */
+	background-repeat: no-repeat; /* https://w3schools.com/css/css_background.asp, for css */
+	background-position: center top; /* https://w3schools.com/css/css_background.asp, for css */
+	/* FIXED - background image will not scroll with the page */
+	background-attachment: fixed; /* https://w3schools.com/css/css_background.asp, for css */
+	/* COVER - will resize the image to cover the entire container */
+	background-size: cover; /* https://w3schools.com/css/css_background.asp, for css */
+}
+
+.backgroundheader2 { /* the background image for the header on team.html*/
+	background-image: url("02_BG_Panorama.jpg");
+	/* NO-REPEAT - background image is not repeated and only displayed once */
+	background-repeat: no-repeat;
+	background-position: center top;
+	/* FIXED - background image will not scroll with the page */
+	background-attachment: fixed;
+	/* COVER - will resize the image to cover the entire container */
+	background-size: cover;
+}
+
+.header { /* the text styles for the header */
+	margin-top: 75px; /* margin top and left to offset it from the edge of the photo */
+	margin-left: 50px;
+	margin-right: 100px;
+	margin-bottom: 75px; /* to extend the height of the image */
+	/* display and padding add the background colour around the text to only be around the text */
+	display: inline-block; /* https://w3schools.com/css/css_inline-block.asp */
+	padding: 20px;
+	background-color: black;
+	opacity: 0.5;
+	color: white;
+	font-size: 1.5vw;
+	/* font family provide a series of font types as a 'fallback' incase a browser doesn't support the initial selected font, prefer Courier New but worst case the browser will choose it's own font in the monospace text family */
+	font-family: "Courier New", "Helvetica", monospace; /* https://w3schools.com/css/pr_font_font-family.php, for css */
+}
+
+/* https://www.youtube.com/watch?v=e5wjLZzMmYM, for css template but changed location, positioning type, added hover/active styling, and colours */
+ *,
+ *:before,
+ *:after{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+ }
+ nav{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: sticky;
+	top: 251px;
+	padding: 15px 25px;
+	font-size: 0.8vw;
+	font-family: "Courier New", "Helvetica", monospace;
+	backdrop-filter: blur(8px);
+	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+ul{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+li a{
+	margin-left: 40px;
+	
+}
+nav a{
+   color: white;
+   letter-spacing: 1px;
+   text-decoration: none;
+   outline: none;
+}
+nav a:hover{
+   background-color: black;
+   color: white;
+   padding: 15px 25px;
+}
+nav a:active{
+   background-color: #FFCCE5;
+   color: white;
+   padding: 15px 25px;
+}
+
+/* contact button link feature */
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	height: 100%;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background: seashell;
+	color:slategray;
+	font-weight: 300;
+  }
+  
+  /* button/toggle hover feature and color change */
+  .button:hover {
+	background: #550505;
+  }
+  
+  /*Display setting for the services section*/
+.flexbox-container {
+    display:flex;
+    justify-content:center;
+
+}
+
+/*The design of the items inside the boxes*/
+.flexbox-item {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width:200px;
+    margin:10px;
+    border: 2px solid #513C2C;
+    background-color: whitesmoke;  
+}
+
+/*Text style for the main titles*/
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    font-size:300%;
+    color:seashell
+
+}
+
+/*Text style for the sub-titles*/
+h2 {
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    font-size: 200%;
+    color: #513C2C;
+}
+
+h3 {
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    font-size: 200%;
+    color: #513C2C;
+}
+
+
+/*Color, margin and font size adjustment for paragraphs*/
+p{
+    color: #513C2C;
+    font-size: 130%;
+    margin: 10px;
+
+}
+
+/*Design of the footer section*/
+footer{
+    height: 130px;
+    background-color: gray;
+}
+
