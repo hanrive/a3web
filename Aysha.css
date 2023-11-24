@@ -1,0 +1,549 @@
+/* Paramters set for full page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", sans-serif;
+}
+
+/* set bakcground color and minimum height of full body container */
+body {
+  background: #9b5404;
+  min-height: 100vh;
+}
+
+/* ****HOME PAGE**** */
+/* NAVBAR SETTINGS AND DISPLAY  */
+.navigation {
+  background: #dab778;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navigation_box {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  z-index: 100;
+  width: 100%;
+  max-width: 1500px;
+  padding: 0 50px;
+}
+
+#navigation_logo {
+  display: flex;
+  font-family: "courier";
+  font-weight: bolder;
+  font-size: 55px;
+  color: #9b5404;
+  align-items: center;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navigation_options {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navigation_pg {
+  height: 90px;
+}
+
+.navigation_link {
+  color: #550505;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 100%;
+}
+
+/* Navbar button for contact page link. */
+.navigation_button {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 0 10px;
+  width: 100%;
+}
+
+/* contact button link feature */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #966219ac;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* button/toggle hover feature and color change */
+.button:hover {
+  background: #550505;
+}
+
+/* coloe change when hovering over links to publication and home pages */
+.navigation_link:hover {
+  color: #fff;
+}
+
+/* adjust font size of subheading in navbar */
+.menu {
+  font-size: 25px;
+}
+
+.navigation_toggle {
+  color: #550505;
+  font-weight: bold;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  display: inline-flex;
+  padding-top: 35px;
+  display: flex;
+}
+
+/* ****RESPONSIVE SCREEN settings and elements for mobile and smaller screens. Mainly alters navbar. 
+I did not come up with this on my own, I used another tutorial/resource from someone on github: https://github.com/briancodex 
+and modified/applied it to my own */
+@media screen and (max-width: 940px) {
+  /* Set conditions for navbar response */
+  .navbar_box {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0;
+  }
+
+  /* alter positions of navbar links to other pages */
+  .navigation_options {
+    display: grid;
+    font-size: 15px;
+    justify-content: center;
+    grid-template-columns: auto;
+    margin: 0;
+    position: absolute;
+    width: 20%;
+    top: 50px;
+    height: 50vh;
+    background: #dab778;
+  }
+
+  /* page heading response  */
+  #navigation_logo {
+    padding-left: 100px;
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+  }
+
+  /* Alter navbar page. alter the title/heading as well as the  */
+  #mobile_option {
+    position: absolute;
+    left: 25%;
+    top: 15px;
+    font-size: 20px;
+  }
+
+  .navigation_link {
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    display: table;
+  }
+
+  .menu {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  .navigation_button {
+    justify-content: center;
+  }
+
+  /* Adjust the size of the button and toggle option */
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:90px;
+  }
+}
+
+
+/* main container for content */
+.main_section {
+  position: relative;
+  background: #9b5404;
+  margin: 50px;
+  max-width: 5000px;
+  min-height: 1500px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+/* left section of page */
+.main_left {
+  position: relative;
+  background: #55050567;
+  padding: 80px;
+}
+
+/* adjust profile picture position and display */
+/* adjust the profile picture 'shape', from a rectangle to circle */
+.profile_ {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#profile_img {
+  height: 400px;
+  width: 400px;
+}
+
+.profile_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: #f0e1a1;
+  font-style: italic;
+  padding-bottom: 30px;
+  border-bottom: 3px solid;
+}
+
+/* adjust main left content position and display */
+.main_ {
+  color: #f0e1a1;
+  line-height: 35px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main_ h1 {
+  padding: 20px;
+  color: #f0e1a1;
+  align-items: center;
+  font-size: 30px;
+}
+
+.profile_container h1 {
+  color: #f0e1a1;
+  font-size: 50px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.profile_container span {
+  font-size: 30px;
+  text-align:center;
+  font-weight:lighter;
+}
+
+/* directly against h3 */
+h3 {
+  font-size: 23px;
+  text-align: left;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.set-one {
+  padding-bottom: 50px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.set-two {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.set-three {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+/* set and adjust position and display of right page content. */
+.main_right {
+  margin: 5px 50px 0px 90px;
+}
+
+/* positioning of landscape image */
+#top-img {
+  margin-bottom: 10px;
+}
+
+/* profile right side content formatting and display */
+.right_container {
+  padding-left: 50px;
+  background-color: #f0e1a1;
+  height: 1200px;
+  color: #550505;
+}
+
+.right-subheading {
+  margin: 50px;
+  background-color: #dab778;
+  padding-top: 30px;
+}
+
+/* directly against h1 */
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color:#550505;
+}
+
+/* Education content */
+.content-one {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-two {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-three {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/* Professional experience subheading and content */
+.right-subheading2 {
+  margin: 40px;
+  background-color: #dab778;
+  padding-top: 30px;
+}
+
+.right-content2 {
+  max-width: 1000px;
+}
+
+.content-one2 {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-one2 span {
+  font-style: italic;
+}
+
+.content-two2 {
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.content-two2 span {
+  font-style: italic;
+}
+
+.content-three2 span {
+  font-style: italic;
+}
+
+
+/* directly against p */
+p {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin-block-end: 1em;
+}
+
+/* display and position of image 3 and 4 */
+.image3_ {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+#image3 {
+  margin-right: 20px;
+}
+
+/* ****PUBLICATIONS PAGE**** */
+.publicationscontainer {
+    margin: 70px;
+    width: 1530px;
+    height: 1000px;
+}
+
+.publicationspicture {
+    width: 454px;
+    display: flex;
+}
+
+/* picture 5 and 6 display and position */
+#pic-5 {
+    padding: 30px;
+}
+
+#pic-6 {
+    padding: 30px;
+}
+
+/* publication content : subheading and publications list */
+.pubcontent {
+    width: 1500px;
+    margin:50px;
+    height:500px;
+    color:#550505;
+    background-color:#dab778;
+}
+
+.pubcontent h1 {
+    text-align: center;
+    font-size:50px;
+    color:#814504;
+    padding: 30px;
+}
+
+.pub-one {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+/* italicising the publication titles */
+.pub-one span {
+    font-style: italic;
+}
+
+.pub-two {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.pub-two span {
+    font-style: italic;
+}
+
+.pub-three {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+
+.pub-three span {
+    font-style: italic;
+}
+
+/* ****CONTACT PAGE**** */
+.contact-container {
+    align-content: center;
+}
+
+.contact-content {
+    background-color:#dab778;
+    margin-left: 450px;
+    margin-top: 160px;
+    width: 1000px;
+    height: 500px;
+    justify-items: center;
+}
+
+/* paragraph formatting and display on contact page */
+.contact-statement {
+    text-align: center;
+    background-color:#f0e1a1;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 1000px;
+    padding-bottom: 10px;
+    color:#550505;
+}
+
+/* contact and information list */
+.contact-email {
+    padding: 50px;
+    text-align: center;
+    color:#550505;
+}
+
+/* underline separaetly the absolute url links to external web pages */
+.contact-email span {
+    text-decoration: underline;
+}
+
+.contact-linkedin {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* directly against h2 */
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color:#550505;
+  font-style:normal;
+}
+
+.contact-linkedin h2 {
+    margin-right: 10px;
+    color:#550505;
+}
+
+/* underline link to linkedin */
+.contact-linkedin span {
+    font-style: italic;
+    text-decoration:underline;
+    color:#b66107;
+}
+
+#linkedin-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#550505;
+}
+
+.contact-git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color:#550505;
+}
+
+.contact-git h2 {
+    margin-right: 10px;
+
+}
+
+/* underline github absolute url */
+#github-link span {
+    font-style: italic;
+    color:#b66107;
+    text-decoration:underline;
+}
