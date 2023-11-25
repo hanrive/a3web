@@ -153,7 +153,7 @@ h3 {
     margin-inline-start: 2px;
     margin-inline-end: 2px;
     text-align: center;
-    font-size: 200%;
+    font-size: 120%;
     color: #513C2C;
 }
 
@@ -170,6 +170,18 @@ p{
     margin: 10px;
 
 }
+
+.PP2023{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: Left;
+	padding:20px
+	margin-bottom:15px
+	margin-right: 150px;
+	margin-left: 50px;
+	margin-top:15px
+  }
+  
 
 .PP2022{
 	border: 5px solid #A9A9A9;
@@ -369,6 +381,64 @@ body {
 .TeamMember {
   text-align: center;
 }
+
+/* Need to fix this by Hannah */
+.flex-contactus {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
+  }
+  
+  .contact-container {
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .contact-container, .flex-item-left {
+      flex: 100%;
+    }
+  }
+
+/* Contact us page by Hannah */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
 .disclaimer  {
     height: 15vh; /* Height of the overall section */
