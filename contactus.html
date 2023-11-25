@@ -7,7 +7,7 @@
 <!-- meta is information about the document, always go inside the <head> -->
 <meta name="viewpoint" content="width=device-width, initial-scale=1"> <!-- setting the viewpoint so it looks good on all devices, w3schools -->
 <meta name="author" content="Group 11"> <!-- defining the author of the page, us, w3schools -->
-<link rel="stylesheet" type="text/css" href="style-index.css"/> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
+<link rel="stylesheet" type="text/css" href="Hannah.css"/> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
 <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- linking to favicon, the little image in the browser tab -->
 </head>
 
@@ -48,33 +48,40 @@
   </nav>
 </div>
 
+<!-- Can't get this to work rn, will change so the containers adjust to screen size/desktop vs mobile -->
+<div class="flex-contactus">
+    <div class="flex-item-left">
+        <h1>Hello</h1>
+        <p>Want to reach out?</p>
+    </div>
 <!-- From https://www.w3schools.com/howto/howto_css_contact_form.asp -->
 <!-- Want to add more countries to the list, make the forms required, make a 
     page pop up thanking after submitting-->
-<div class="contact-container">
-    <form action="action_page.php">
+    <div class="contact-container">
+        <form action="action_page.php"> <!-- Change this action page -->
   
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
   
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
   
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Email...">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email...">
 
-      <label for="country">Country/Region</label>
-      <select id="country" name="country">
-        <option value="uk">UK</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-        <option value="others">Other</option>
-      </select>
+        <label for="country">Country/Region</label>
+        <select id="country" name="country">
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="others">Other</option>
+        </select>
   
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
   
-      <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
   
-    </form>
-  </div>
+        </form>
+    </div>
+</div>
