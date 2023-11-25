@@ -370,3 +370,14 @@ body {
   text-align: center;
 }
 
+.disclaimer  {
+    height: 15vh; /* Height of the overall section */
+    background-color: rgba(0, 0, 0, 0.6);
+    border: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: "Courier New", "Helvetica", monospace;
+    font-size: 15px;
+    text-align: left;
+    padding: 30px; /* To create space from the edges of the border and the text */
+    margin-top: 100px; /* To give a specified separation from the above text */
+}
