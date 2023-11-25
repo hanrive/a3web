@@ -251,4 +251,6 @@ body {
 	margin-top: 100px; /* To give a specified separation from the above text */
 }
 
-.TeamMember
+.TeamMember {
+	text-align: center;
+  }
