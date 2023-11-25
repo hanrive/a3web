@@ -1,1 +1,20 @@
 
+/* paragraph formatting for 2022 and 2023 */
+.PP2023
+{
+  border: 5px #303030;
+  background-color: #F5F5F5;
+  text-align: Left;
+  padding:5px
+  margin:10px
+}
+
+
+
+.PP2023{
+  border: 5px #303030;
+  background-color: #F5F5F5;
+  text-align: Left;
+  padding:5px
+  margin:10px
+}
