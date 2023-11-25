@@ -85,7 +85,6 @@ nav a:active{
 	color: white;
 	padding: 15px 25px;
 }
-}
 
 /* https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14, for css */
 body {
@@ -251,3 +250,5 @@ body {
 	padding: 30px; /* To create space from the edges of the border and the text */
 	margin-top: 100px; /* To give a specified separation from the above text */
 }
+
+.TeamMember
