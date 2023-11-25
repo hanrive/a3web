@@ -1,6 +1,7 @@
 /* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
+
 .backgroundheader1 { /* the background image for the header on index.html*/
-	background-image: url("01_BG_ Panorama.jpg");
+	background-image: url("img/backgroundv1.jpg");
 	/* NO-REPEAT - background image is not repeated and only displayed once */
 	background-repeat: no-repeat; /* https://w3schools.com/css/css_background.asp, for css */
 	background-position: center top; /* https://w3schools.com/css/css_background.asp, for css */
@@ -86,14 +87,140 @@ nav a:active{
 	padding: 15px 25px;
 }
 
-/* https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14, for css */
+/* contact button link feature */
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	height: 100%;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background: seashell;
+	color:slategray;
+	font-weight: 300;
+  }
+  
+  /* button/toggle hover feature and color change */
+  .button:hover {
+	background: #550505;
+  }
+  
+  /*Display setting for the services section*/
+  .flexbox-container {
+    display:flex;
+    justify-content:center;
+
+}
+
+/*The design of the items inside the boxes*/
+.flexbox-item {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    width:200px;
+    margin:10px;
+    border: 2px solid #513C2C;
+    background-color: whitesmoke;  
+}
+
+/*Text style for the main titles*/
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    font-size:300%;
+    color:seashell
+
+}
+
+/*Text style for the sub-titles*/
+h2 {
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    font-size: 200%;
+    color: #513C2C;
+}
+
+h3 {
+    font-weight: bolder;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: center;
+    font-size: 200%;
+    color: #513C2C;
+}
+
+.titledescription{
+	color: seashell;
+    font-size: 130%;
+    margin: 10px;
+}
+
+/*Color, margin and font size adjustment for paragraphs*/
+p{
+    color: #513C2C;
+    font-size: 130%;
+    margin: 10px;
+
+}
+
+.PP2022{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: Left;
+	padding:20px
+	margin-bottom:15px
+	margin-right: 150px;
+	margin-left: 50px;
+	margin-top:15px
+  }
+  
+
+/*Display stile for the Education section*/
+.education{
+    line-height: 50px;
+    text-align: left;
+    padding-left: 20%;
+    padding-right:20%;
+    margin-bottom: 100px;
+}
+
+
+/*Display setting for the name of fake schools under the Education list*/
+.educationline dt{
+    font-weight: bold;
+    float: left;
+}
+
+/*Display setting of the time range of studying at each schools*/
+.range{
+    font-style: italic;
+    float: right;
+}
+
+/*Style setting for the description under the list of education histories*/
+.edudescript{
+    margin-left: 0px;
+    display: block;
+    clear: both;
+}
+
+
+/* https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14, for css
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
   /*Display setting for the services section*/
 .flexbox-container {
@@ -238,44 +365,8 @@ body {
 	margin-right: 300px;
 }
 
-/*Div Formatting for 2022 and 2023 sections under Past Projects */
-.PP2023
-{
-  border: 5px solid #A9A9A9;
-  background-color: #F5F5F5;
-  text-align: Left;
-  padding:20px
-  margin-bottom:15px
-  margin-right: 150px;
-  margin-left: 50px;
-  margin-top:15px
-}
-
-
-.PP2022{
-  border: 5px solid #A9A9A9;
-  background-color: #F5F5F5;
-  text-align: Left;
-  padding:20px
-  margin-bottom:15px
-  margin-right: 150px;
-  margin-left: 50px;
-  margin-top:15px
-}
-
-/* https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/, for css */
-.disclaimer  {
-	height: 15vh; /* Height of the overall section */
-	background-color: rgba(0, 0, 0, 0.6);
-	border: rgba(0, 0, 0, 0.6);
-	color: white;
-	font-family: "Courier New", "Helvetica", monospace;
-	font-size: 15px;
-	text-align: left;
-	padding: 30px; /* To create space from the edges of the border and the text */
-	margin-top: 100px; /* To give a specified separation from the above text */
-}
 
 .TeamMember {
-	text-align: center;
-  }
+  text-align: center;
+}
+
