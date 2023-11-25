@@ -1,0 +1,80 @@
+<!-- Doctype and Meta Tags -->
+<!DOCTYPE html>
+<html lang="en"> <!-- declares the language of the webpage -->
+
+<head> <!-- the <head> element is a container for metadata -->
+<title>Pawfect Partners</title>
+<!-- meta is information about the document, always go inside the <head> -->
+<meta name="viewpoint" content="width=device-width, initial-scale=1"> <!-- setting the viewpoint so it looks good on all devices, w3schools -->
+<meta name="author" content="Group 11"> <!-- defining the author of the page, us, w3schools -->
+<link rel="stylesheet" type="text/css" href="style-index.css"/> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
+<link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- linking to favicon, the little image in the browser tab -->
+</head>
+
+
+<!-- Body text and stuff?? -->
+<body> <!-- the <body> element contains all the contents of an HTML document (headings, paragraphs, images, hyperlinks, tables, lists, etc.) -->
+
+<!-- Top top header -->
+<header>
+<div class="backgroundheader1">
+	<div class="header">
+		<h1>Pawfect Partners Consulting Group</h1>
+		<p>Our motto: bring our best paws foward to accomplish your goals!</p>
+	</div>
+</div>
+</header>
+
+<!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+<div id="navbar">
+  <nav>
+	<ul>
+		<li>
+			<a href="template-index.html">Home</a>
+		</li>
+		<li>
+			<a href="team.html">Meet the Team</a>
+		</li>
+		<li>
+			<a href="services.html">Services</a>
+		</li>
+		<li>
+			<a href="pastprojects.html">Past Projects </a>
+		</li>
+		<li>
+			<a href="contactus.html">Contact Us </a>
+		</li>
+	</ul>
+  </nav>
+</div>
+
+<!-- From https://www.w3schools.com/howto/howto_css_contact_form.asp -->
+<!-- Want to add more countries to the list, make the forms required, make a 
+    page pop up thanking after submitting-->
+<div class="contact-container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Email...">
+
+      <label for="country">Country/Region</label>
+      <select id="country" name="country">
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="others">Other</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
