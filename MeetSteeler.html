@@ -1,0 +1,104 @@
+<!-- This is the second page, which can be directed by clicking the 'Experience' button on the navigation bar-->
+<!DOCTYPE html>
+<html lang = "en">
+<!--This is the title of the website-->
+<head>
+    <meta charset="utf-8">
+    <title>Steeler</title>
+    <link rel = "stylesheet" href = "style-index.css">
+    
+</head>
+<!-- Top top header -->
+<header>
+    <div class="backgroundheader1">
+        <div class="header">
+            <h1>Pawfect Partners Consulting</h1>
+            <p class="titledescription">Our motto: Putting our best paw forward to accomplish our goals.</p>
+        </div>
+    </div>
+    </header>
+    
+   <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+<div id="navbar">
+  <nav>
+	<ul>
+		<li>
+			<a href="template-index.html">Home</a>
+		</li>
+		<li>
+			<a href="team.html">Meet the Team</a>
+		</li>
+		<li>
+			<a href="services.html">Services</a>
+		</li>
+		<li>
+			<a href="pastprojects.html">Past Projects</a>
+		</li>
+		<li>
+			<a href="contactus.html">Contact Us</a>
+		</li>
+	</ul>
+  </nav>
+</div>
+
+<!-- Text under navigation bar -->
+<div class="wrapper">
+    <div class="text-box">
+        <h2> Meet Steeler </h2>
+            <img src="img/steelerResized.png" alt="Steeler Bio Pic" style="width:75%">
+            <p>Hi! I am a hydrologist, but my interests don't stop there. I'm interested in natural hazards, human geography, and soils!</p>
+
+
+<!-- Description list for education-->
+<div class="education">
+    <h2>Education</h2>
+        <div class="educationline">
+            <dl>
+                <dt>MEs, Earth Systems Science</dt>
+                <dd class="range">Pawland University (2020)</dd>
+                <dd class="edudescript">  </dd>
+            </dl>
+            <hr>
+            <dl>
+                <dt>BEs, Geography and Environmental Management</dt>
+                <dd class="range">Pawland University (2017)</dd>
+                <dd class="edudescript">Took courses on hydrology, hydrogeomorphology, meterology, wetland restoration, and stormwater management.</dd>
+            </dl>
+        </div>
+</div>
+        
+<div class ="experience">
+    <h2>Experience</h2>
+        <div class="educationline">
+            <dl>
+                <dt>Senior Hydrologist </dt>
+                <dd class="range">Ontario Power Generation</dd>
+                <p>Worked on major dam projects.</p>
+                <dd class="edudescript">  </dd>
+            </dl>
+        </div>
+</div>
+
+<div>
+    <h2>Fun Facts about Me</h2>
+    <p>Now that you've learned all the important things, let me tell you a bit more about myself personally.</p>
+    <!-- Just playing around with a w3schools example from: https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_show -->
+    <p id="fact1" style="display:none">I have been working for 3 dog years (21 human years!)</p>
+    <button type="button" onclick="document.getElementById('fact1').style.display='block'">Fun Fact #1</button>
+
+    <p id="fact2" style="display:none">My favourite sport is basketball. AirBud is my 23rd cousin.</p>
+    <button type="button" onclick="document.getElementById('fact2').style.display='block'">Fun Fact #2</button>
+
+    <p id="fact3" style="display:none">I love long walks.</p>
+    <button type="button" onclick="document.getElementById('fact3').style.display='block'">Fun Fact #3</button>
+</div>
+
+<!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
+<div class="disclaimer" id="disclaimer">
+<section>
+	<p>©Copyright Pawfect Partners Consulting Group 2023</p>
+</section>
+</div>
+
+</body>
+</html>
