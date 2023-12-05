@@ -469,11 +469,12 @@ input[type=text], select, textarea {
 }
 
 .fact {
-  border-color: #4682B4;
-  color: steelblue
-}
-
+	border-color: lightsteelblue;
+	background: steelblue;
+	color: white
+  }
+  
 .fact:hover {
-  background: #4682B4;
-  color: white;
+background: white;
+color: steelblue;
 }
