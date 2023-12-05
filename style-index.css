@@ -451,3 +451,18 @@ input[type=text], select, textarea {
     padding: 30px; /* To create space from the edges of the border and the text */
     margin-top: 100px; /* To give a specified separation from the above text */
 }
+
+/* Fun facts - Steeler's page*/
+.funfacts {
+	text-align: center;
+}
+
+.fact {
+  border-color: #4682B4;
+  color: steelblue
+}
+
+.fact:hover {
+  background: #4682B4;
+  color: white;
+}
