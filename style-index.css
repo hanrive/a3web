@@ -453,6 +453,17 @@ input[type=text], select, textarea {
 }
 
 /* Fun facts - Steeler's page*/
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_outline_buttons2 */
+.btn {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
 .funfacts {
 	text-align: center;
 }
