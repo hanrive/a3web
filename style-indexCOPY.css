@@ -1,7 +1,8 @@
 /* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
 
-* {
-	background-color: #F0F8FF;
+/* Entire document */
+body {
+	background-color: #F0F8FF; 
 	/* background-color: pink; */
 	font-family: Arial;
 }
@@ -75,7 +76,7 @@
 	 margin-left: 40px;
  }
 
- /* Navigation bar */
+ /* Navigation bar page choices */
 nav a{
 	color: white;
 	font-size: 20px;
@@ -104,6 +105,11 @@ nav a:active{
 /* Homepage */
 .teamMembers {
 	width: 70%;
+}
+
+/* Individual profiles */
+.profilepic {
+	width: 100;
 }
 
 /* contact button link feature */
@@ -354,33 +360,31 @@ body {
 /* end */
 
 .text_body {
-	/* font-family: Arial; */
 	font-size: 1.3vw;
 }
 
+/* Applies to the Our Team section fonts */
 .row .column img {
 	max-width: 100%;
 }
 
-.row .column h1 {
-	/* font-family: Arial; */
+.row .column h2 {
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
 }
 
 .row .column h2 {
-	/* font-family: "Arial", "Helvetica", monospace; */
 	color: black;
 	font-size: 15px;
-	font-style: italic;
+	font-weight: bold;
 }
 
 .row .column p {
-	color: #6e6e6e;
+	color: #fff7d4;
 	font-size: 1vw;
-	/* font-family: "Calibri", sans-serif; */
 }
+/* End of Our Team section */
 
 .wrapper .text-box {
 	color: black;
@@ -388,12 +392,10 @@ body {
 
 .wrapper .text-box h1 {
 	font-size: 42 px;
-	/* font-family: "Arial", "Helvetica", monospace; */
 }
 
 .wrapper .text-box p {
 	font-size: 16px;
-	/* font-family: "Poppins", sans-serif; */
 }
 
 .pfp_drawing {
@@ -496,8 +498,7 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
-/* Fun facts - Steeler's page*/
-
+/* Fun facts - Steeler's page (Chloe)*/
 .funfacts {
 	text-align: center;
 }
@@ -511,4 +512,8 @@ input[type=text], select, textarea {
 .fact:hover {
   background: white;
   color: steelblue;
+}
+
+.meetTeam {
+	background-color: #9bb8cd;
 }
