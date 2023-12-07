@@ -26,6 +26,20 @@
 	font-family: "Courier New", "Helvetica", monospace; /* https://w3schools.com/css/pr_font_font-family.php, for css */
 }
 
+/* Entire document */
+body {
+	background-color: #F0F8FF; 
+	/* background-color: pink; */
+	font-family: Arial;
+}
+
+/***************** 
+* Owner : Shawn Morgan
+* Date  : Nov 5 (v1)
+* From  : https://www.w3schools.com/html/html_intro.asp
+* Description: Navigation bar
+******************/
+
 /* https://www.youtube.com/watch?v=e5wjLZzMmYM, for css template but changed location, positioning type, added hover/active styling, and colours */
  *,
  *:before,
@@ -123,7 +137,6 @@ h1 {
     margin-inline-end: 2px;
     font-size:300%;
     color:seashell
-
 }
 
 /*Text style for the motto*/
@@ -133,6 +146,26 @@ h1 {
     margin: 10px;
 }
 
+/* FROM STYLE-INDEXCOPY.CSS IDK
+* Text style for the main titles
+* h1 {
+*    text-align: center;
+*    font-weight: bolder;
+*    margin-inline-start: 2px;
+*    margin-inline-end: 2px;
+*    font-size:50px;
+*    color: seashell;
+*	 background-color: steelblue;
+*
+* }
+*
+* .titledescription{
+*	 color: lightsteelblue;
+*	 background-color: steelblue;
+*    font-size: 130%;
+*    margin: 10px;
+* }
+*/
 
 /*Text style for the sub-titles and paragraph*/
 h2{ 
@@ -170,6 +203,30 @@ h4{
     text-align: left;
     color: rgb(85, 67, 52);
     font-size: 110%;
+  }
+
+/* Project Page
+.PP2023{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: Left;
+	padding: 20px;
+	margin-bottom: 15px;
+	margin-right: 150px;
+	margin-left: 50px;
+	margin-top: 15px;
+  }
+  
+
+.PP2022{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: Left;
+	padding:20px;
+	margin-bottom:15px;
+	margin-right: 150px;
+	margin-left: 50px;
+	margin-top:15px
   }
 
 /*Display stile for the Education section*/
@@ -509,6 +566,13 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+#disclaimertext {
+	background-color: steelblue;
+	color: white;
+	width: 100%;
+	padding-top: 45px;
+} 
+
 .disclaimer  {
     height: 15vh; /* Height of the overall section */
     background-color: rgba(0, 0, 0, 0.6);
@@ -547,3 +611,16 @@ input[type=text], select, textarea {
 background: white;
 color: steelblue;
 }
+
+.meetTeam {
+	background-color: #9bb8cd;
+}
+
+/* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
+/* For all individual pet profiles if wanted! */
+img.PetProfile {
+	float: left;
+	border: 5px solid rgb(30, 79, 119);
+	border-radius: 15px;
+	margin-right: 15px;
+	box-shadow: 10px 10px 25px grey;
