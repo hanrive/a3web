@@ -1,5 +1,4 @@
 /* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
-
 .backgroundheader1 { /* the background image for the header on index.html*/
 	background-image: url("img/backgroundv1.jpg");
 	/* NO-REPEAT - background image is not repeated and only displayed once */
