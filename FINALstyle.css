@@ -129,43 +129,23 @@ nav a:active{
     background-color: whitesmoke;  
 }
 
-/*Text style for the main titles*/
+/* Text style for the main titles */
 h1 {
-    text-align: center;
-    font-weight: bolder;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
-    font-size:300%;
-    color:seashell
+text-align: center;
+font-weight: bolder;
+margin-inline-start: 2px;
+margin-inline-end: 2px;
+font-size:50px;
+color: seashell;
+background-color: steelblue;
 }
 
-/*Text style for the motto*/
 .titledescription{
-	color: seashell;
-    font-size: 130%;
-    margin: 10px;
+color: lightsteelblue;
+background-color: steelblue;
+font-size: 130%;
+margin: 10px;
 }
-
-/* FROM STYLE-INDEXCOPY.CSS IDK
-* Text style for the main titles
-* h1 {
-*    text-align: center;
-*    font-weight: bolder;
-*    margin-inline-start: 2px;
-*    margin-inline-end: 2px;
-*    font-size:50px;
-*    color: seashell;
-*	 background-color: steelblue;
-*
-* }
-*
-* .titledescription{
-*	 color: lightsteelblue;
-*	 background-color: steelblue;
-*    font-size: 130%;
-*    margin: 10px;
-* }
-*/
 
 /*Text style for the sub-titles and paragraph*/
 h2{ 
