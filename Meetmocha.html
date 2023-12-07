@@ -1,89 +1,95 @@
-<!-- This is the second page, which can be directed by clicking the 'Experience' button on the navigation bar-->
+<!-- Doctype and Meta Tags -->
 <!DOCTYPE html>
-<html lang = "en">
-<!--This is the title of the website-->
-<head>
-    <meta charset="utf-8">
-    <title> Mocha the Poo </title>
-    <link rel = "stylesheet" href = "style-index.css">
-    
+<html lang="en"> <!-- declares the language of the webpage -->
+
+<head> <!-- the <head> element is a container for metadata -->
+	<title>Meet the Team</title>
+	<!-- meta is information about the document, always go inside the <head> -->
+	<meta charset="UTF-8"> <!-- defines the character encoding for the document, UTF-8/ASCII, w3schools -->
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<!-- setting the viewpoint so it looks good on all devices, w3schools -->
+	<meta name="author" content="Chloe N"> <!-- defining the author of the page, me, w3schools -->
+	<link rel="stylesheet" type="text/css" href="style-indexMC.css">
+	<!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
+	<!-- <link rel="icon" type="image/x-icon" href="favicon.ico">  linking to favicon, the little image in the browser tab -->
 </head>
-<!-- Top top header -->
-<header>
-    <div class="backgroundheader1">
-        <div class="header">
-            <h1>Pawfect Partners Consulting</h1>
-            <p class="titledescription">Our motto: bring our best paw foward to accomplish</p>
-        </div>
-    </div>
-    </header>
-    
-    
-    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-    <div id="navbar">
-        <nav>
-        <ul>
-            <li>
-                <a href="template-index.html">Home</a>
-            </li>
-            <li>
-                <a href="team.html">Meet the Team</a>
-            </li>
-            <li>
-                <a href="services.html">Services</a>
-            </li>
-            <li>
-                <a href="pastprojects.html">Past Projects</a>
-            </li>
-            <li>
-                <a href="contactus.html">Contact</a>
-            </li>
-        </ul>
-      </nav>
-    </div>
-    
-    <!-- Text under navigation bar -->
-    <div class="wrapper">
-        <div class="text-box">
-            <h2> Meet Mocha </h2>
-            <img src="img/image8.jpg" alt="Mocha's Photo1">
-                <p>Hi! I am Mocha, your remote sensing specialist. </p>
-                <p>My past project focused on remote sensing analysis including retreiving satelite images, UAV opration, image correction and classification. Remote sensing related product design. I also create detailed professional maps for the clients.   </p>
-                    <!--Flexbox for the list of services-->
 
-    <!-- Description list for education-->
-    <div class="education">
-        <h2>Education</h2>
-            <div class="educationline">
-                <dl>
-                    <dt>MSc, University of Pawronto</dt>
-                    <dd class="range">Fall 2022-Summer 2023</dd>
-                    <dd class="edudescript">Remote sensing of Canadian grasslands: using vegetation biochemistry to monitor grassland health </dd>
-                </dl>
-                <hr>
-                <dl>
-                    <dt>University of Pawronto</dt>
-                    <dd class="range">Summer 2021-Fall 2022</dd>
-                    <dd class="edudescript">Major in GIS and environmental science</dd>
-                </dl>
-            </div>
-    </div>
-            
-    <div class ="experience">
-        <h2>Remote Sensing Specialist</h2>
-            <p> Software Design and Development</p>
-            <img src="img/smartland.png" alt="smartland">
+<body>
+	<!-- the <body> element contains all the contents of an HTML document (headings, paragraphs, images, hyperlinks, tables, lists, etc.) -->
 
-    </div>
-    
-<!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
-<div class="disclaimer" id="disclaimer">
-    <section>
-        <p>Pawfect Partners Consulting</p>
-        <p>Please visit our contact page if you'd like to reach out regarding our services.</p>
-    </section>
-</div>
-    
+	<!-- Top top header -->
+	<header>
+		<div class="backgroundheader1">
+			<div class="header">
+				<h1>Pawfect Partners Consulting</h1>
+				<p class="titledescription">Putting our best paw forward to accomplish our goals.</p>
+			</div>
+		</div>
+	</header>
+
+	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+	<!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+	<div id="navbar">
+		<nav>
+			<ul>
+				<li><a href="template-index.html">Home</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a class=current href="Meetmocha.html">Mocha</a></li>
+				<li><a href="Phoebe.html">Phoebe</a></li>
+				<li><a href="Meetrocky.html">Rocky</a></li>
+				<li><a href="MeetSkyler.html">Skyler</a></li>
+				<li><a href="meetSteeler.html">Steeler</a></li>
+				<li><a href="pastprojects.html">Past Projects</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Text under navigation bar -->
+	<div class="wrapper">
+		<div class="text-box">
+			<h2> Meet Mocha </h2>
+            <img class = PetProfile src="img/image8.jpg" alt="Mocha's Photo1">
+			<div class="member-description">
+				<div>
+					<div>
+						<p>Hi! I am Mocha, your remote sensing specialist. </p>
+					</div>
+
+					<div>
+						<p>My past project focused on remote sensing analysis including retreiving satelite images, UAV
+							opration, image correction and classification. Remote sensing related product design. I also
+							create detailed professional maps for the clients. Feel free to contact me to discuss for future projects! </p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Description list for education-->
+			<div class="education">
+				<h2>Education</h2>
+				<div class="educationline">
+					<dl>
+						<dt>MSc, University of Pawronto</dt>
+						<dd class="range">Fall 2022-Summer 2023</dd>
+						<dd class="edudescript">Remote sensing of Canadian grasslands: using vegetation biochemistry to
+							monitor grassland health </dd>
+					</dl>
+					<hr>
+					<dl>
+						<dt>University of Pawronto</dt>
+						<dd class="range">Summer 2021-Fall 2022</dd>
+						<dd class="edudescript">Major in GIS and environmental science</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
+	<div class="disclaimer" id="disclaimer">
+		<p id="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
+	</div>
+
 
 </body>
 
