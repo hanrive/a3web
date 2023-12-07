@@ -476,6 +476,30 @@ p{
     }
   }
 
+
+/*Mengjie Past Projects Page*/
+/*Putting the Boxes around to separat 2023 and 2022 Projects*/
+.PP2023{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 15px;
+  }
+.PP2022{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding:20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top:40px
+  }
+
+
 /* Contact us page by Hannah */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
