@@ -170,31 +170,7 @@ p{
     margin: 10px;
 
 }
-
-.PP2023{
-	border: 5px solid #A9A9A9;
-	background-color: #F5F5F5;
-	text-align: Left;
-	padding:20px
-	margin-bottom:15px
-	margin-right: 150px;
-	margin-left: 50px;
-	margin-top:15px
-  }
   
-
-.PP2022{
-	border: 5px solid #A9A9A9;
-	background-color: #F5F5F5;
-	text-align: Left;
-	padding:20px
-	margin-bottom:15px
-	margin-right: 150px;
-	margin-left: 50px;
-	margin-top:15px
-  }
-  
-
 /*Display stile for the Education section*/
 .education{
     line-height: 50px;
@@ -404,6 +380,169 @@ body {
       flex: 100%;
     }
   }
+
+/*Mengjie Skyler Page*/
+
+#imgSkyler{text-align: center;}
+
+/*Mengjie Past Projects Page*/
+/*Putting the Boxes around to separat 2023 and 2022 Projects*/
+.PP2023{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 15px;
+  }
+/*Change the text style of h2 h3 and paragraph in the first box on the project page*/
+  .PP2023 h2{ 
+	font-weight: 700;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 150%;
+    color: rgb(65, 59, 59);
+  }
+
+  .PP2023 h3{ 
+	font-weight: 600;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 120%;
+    color: rgb(112, 106, 106);
+  }
+
+  .PP2023 h4{ 
+	font-weight: 500;
+	font-style: italic; 
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 100%;
+    color: rgb(104, 97, 97)
+  }
+
+  .PP2023 p{ 
+	font-weight: 400;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    color: rgb(85, 67, 52);
+    font-size: 110%;
+  }
+
+/*Putting the Boxes around to separat 2023 and 2022 Projects*/
+.PP2022{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding:20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top:40px
+  }
+
+/*Box around Picutres*/
+.PPPictures{
+border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	padding:20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top:40px;
+	text-align: center;
+}
+/*Space between Picutres*/
+#imgPP1{margin-left:25px; margin-right:25px;}
+#imgPP2{margin-left:25px; margin-right:25px;}
+#imgPP3{margin-left:25px; margin-right:25px;}
+
+/*Change the text style of h2 h3 and paragraph in the second box on project page */
+.PP2022 h2{ 
+	font-weight: 700;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 150%;
+    color: rgb(65, 59, 59);
+  }
+
+  .PP2022 h3{ 
+	font-weight: 600;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 120%;
+    color: rgb(112, 106, 106);
+  }
+
+  .PP2022 h4{ 
+	font-weight: 500;
+	font-style: italic; 
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 100%;
+    color: rgb(104, 97, 97)
+  }
+
+  .PP2022 p{ 
+	font-weight: 400;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    color: rgb(85, 67, 52);
+    font-size: 110%;
+  }
+
+
+/*Spacing projects in 2023*/
+.PP2023One{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.PP2023Two{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.PP2023Three{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.PP2023Four{
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.PP2023Five{
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/*Spacing projects in 2022*/
+
+.PP2022One{
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.PP2022Two{
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.PP2022Three{
+    margin-top: 25px;
+	margin-bottom: 25px;
+}
+/*Mengjie End Past Projects Page*/
 
 /* Contact us page by Hannah */
 /* Style inputs with type="text", select elements and textareas */
