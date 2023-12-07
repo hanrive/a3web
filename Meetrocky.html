@@ -1,94 +1,92 @@
 <!-- This is the second page, which can be directed by clicking the 'Experience' button on the navigation bar-->
+<!-- Doctype and Meta Tags -->
 <!DOCTYPE html>
-<html lang = "en">
-<!--This is the title of the website-->
-<head>
-    <meta charset="utf-8">
-    <title> Rocky </title>
-    <link rel = "stylesheet" href = "style-index.css">
-    
+<html lang="en"> <!-- declares the language of the webpage -->
+
+<head> <!-- the <head> element is a container for metadata -->
+<title>Meet Rocky</title>
+<!-- meta is information about the document, always go inside the <head> -->
+<meta charset="UTF-8"> <!-- defines the character encoding for the document, UTF-8/ASCII, w3schools -->
+<meta name="viewpoint" content="width=device-width, initial-scale=1"> <!-- setting the viewpoint so it looks good on all devices, w3schools -->
+<meta name="author" content="Aysha Q"> <!-- defining the author of the page, me, w3schools -->
+<link rel="stylesheet" type="text/css" href="style-indexCOPY.css"> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
+<!-- <link rel="icon" type="image/x-icon" href="favicon.ico">  linking to favicon, the little image in the browser tab -->
 </head>
+
+<body> <!-- the <body> element contains all the contents of an HTML document (headings, paragraphs, images, hyperlinks, tables, lists, etc.) -->
+
 <!-- Top top header -->
 <header>
-    <div class="backgroundheader1">
-        <div class="header">
-            <h1>Pawfect Partners Consulting</h1>
-            <p class="titledescription">Our motto: bring our best paw foward to accomplish</p>
-        </div>
-    </div>
-    </header>
-    
+<div class="backgroundheader1">
+	<div class="header">
+		<h1>Pawfect Partners Consulting</h1>
+		<p class="titledescription">Putting our best paw forward to accomplish your goals.</p>
+	</div>
+</div>
+</header>
     
    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-<div id="navbar">
-  <nav>
-	<ul>
-		<li>
-			<a href="template-index.html">Home</a>
-		</li>
-		<li>
-			<a href="team.html">Meet the Team</a>
-		</li>
-		<li>
-			<a href="services.html">Services</a>
-		</li>
-		<li>
-			<a href="pastprojects.html">Past Projects</a>
-		</li>
-		<li>
-			<a href="contactus.html">Contact Us</a>
-		</li>
-	</ul>
-  </nav>
+   <div id="navbar">
+	<nav>
+		<ul>
+			<li><a href="template-index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="Meetmocha.html">Mocha</a></li>
+			<li><a href="Phoebe.html">Phoebe</a></li>
+			<li><a class = current href="Meetrocky.html">Rocky</a></li>
+			<li><a href="MeetSkyler.html">Skyler</a></li>
+			<li><a href="meetSteeler.html">Steeler</a></li>
+			<li><a href="pastprojects.html">Past Projects</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	</nav>
+    </div>
+
+    
+ <!-- Text under navigation bar -->
+<div class="wrapper">
+    <div class="text-box">
+        <h2> Meet Rocky !</h2>
+            <img src="img/rockypfp.png" alt="Steeler Bio Pic" style="width:75%">
+            <p>Hi! I am a geologist. I'm interested in all things Earth. I have loads of experience in geophysics, geological risk assessments, and disaster relief!</p>
+
+
+
+<!-- Description list for education-->
+<div class="education">
+    <h2>Education</h2>
+        <div class="educationline">
+            <dl>
+                <dt>Personal Life Experience</dt>
+                <dd class="edudescript">  </dd>
+            </dl>
+            <hr>
+            <dl>
+                <dt>BEs, Geography and Environmental Management</dt>
+                <dd class="range">Pawland University (2017)</dd>
+                <dd class="edudescript">Took courses on hydrology, hydrogeomorphology, meterology, wetland restoration, and stormwater management.</dd>
+            </dl>
+        </div>
+</div>
+        
+<div class ="experience">
+    <h2>Experience</h2>
+        
+            <dl>
+                <dt>Senior Hydrologist </dt>
+                <dd class="range">Ontario Power Generation</dd>
+                <p>Worked on major dam projects.</p>
+                <dd class="edudescript">  </dd>
+            </dl>
+    
 </div>
 
-    
-    <!-- Text under navigation bar -->
-    <div class="wrapper">
-        <div class="text-box">
-            <h2> Meet Rocky</h2>
-           
-                <p>Hi! I am a certified geologist. </p>
-                <p>Filter Filter Filter Filter   </p>
-                    <!--Flexbox for the list of services-->
-
-    <!-- Description list for education-->
-    <div class="education">
-        <h2>Education</h2>
-            <div class="educationline">
-                <dl>
-                    <dt>MSc, Geography</dt>
-                    <dd class="range">Graudated Fall 2020</dd>
-                    <dd class="edudescript">  </dd>
-                </dl>
-                <hr>
-                <dl>
-                    <dt>University of Bones</dt>
-                    <dd class="range">Graudated Fall 2018</dd>
-                    <dd class="edudescript">BHSc Major in Human Behaviour</dd>
-                </dl>
-            </div>
-    </div>
-            
-
-    <!--ImageOption image3-6 Begin-->
-    <div class ="experience">
-        <h2>Blah blah blah</h2>
-            <p> Conflict zones in Eastern </p>
-        
-    </div>
-    <!--ImageOption image3-6 End-->
-    
 
 
 <!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
 <div class="disclaimer" id="disclaimer">
-<section>
-	<p>Pawfect Partners Consulting</p>
-	<p>Please visit our contact page if you'd like to reach out regarding our services.</p>
-</section>
+    <p id ="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
 </div>
 
 </body>
-
 </html>
