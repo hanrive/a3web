@@ -35,19 +35,28 @@
     </header>
 
     <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-    <div id="navbar">
-      <nav>
-        <ul>
-          <li><a href="template-index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="Meetmocha.html">Mocha</a></li>
-          <li><a href="Phoebe.html">Phoebe</a></li>
-          <li><a class="current" href="Meetrocky.html">Rocky</a></li>
-          <li><a href="MeetSkyler.html">Skyler</a></li>
-          <li><a href="meetSteeler.html">Steeler</a></li>
-          <li><a href="pastprojects.html">Past Projects</a></li>
-          <li><a href="contactus.html">Contact Us</a></li>
+    <div>
+      <nav class="navbar_container">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="template-index.html">Home</a></li>
+          <li class="nav-item"><a href="services.html">Services</a></li>
+          <li class="nav-item"><a href="Meetmocha.html">Mocha</a></li>
+          <li class="nav-item"><a href="Phoebe.html">Phoebe</a></li>
+          <li class="nav-item">
+            <a id="current" href="Meetrocky.html">Rocky</a>
+          </li>
+          <li class="nav-item"><a href="MeetSkyler.html">Skyler</a></li>
+          <li class="nav-item"><a href="meetSteeler.html">Steeler</a></li>
+          <li class="nav-item">
+            <a href="pastprojects.html">Past Projects</a>
+          </li>
+          <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </div>
 
@@ -99,5 +108,6 @@
     <div class="disclaimer" id="disclaimer">
       <p id="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
     </div>
+    <script src="ayshajs.js"></script>
   </body>
 </html>
