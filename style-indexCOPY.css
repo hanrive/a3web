@@ -3,6 +3,7 @@
 /* Entire document */
 body {
 	background-color: #F0F8FF; 
+	/* background-color: pink; */
 	font-family: Arial;
 }
 
@@ -51,7 +52,7 @@ body {
 	 box-sizing: border-box;
  }
  nav{
-	 width: 100%;
+	 width: 100%; 
 	 display: flex;
 	 align-items: center;
 	 justify-content: space-between;
@@ -62,17 +63,41 @@ body {
 	 font-size: 0.8vw;
 	 backdrop-filter: blur(8px);
 	 box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+
+	
  }
- ul{
-	 list-style: none;
-	 background-color: steelblue;
+
+.navbar_container {
+	width: 3000px;
+	margin: auto;
+}
+
+
+
+ul .nav-menu{
+	width: 90%;
+	background-color: steelblue;
+	margin: auto;
  }
- li{
-	 display: inline-block;
-	 background-color: steelblue;
+
+@media(max-width:3000px){
+	.navbar_container{
+		width: 100%;
+	}
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	background-color: steelblue;
+	justify-content: space-between;
  }
- li a{
-	 margin-left: 40px;
+li a{
+	margin-left: 40px;
+	text-decoration: none;
+	display:flex;
+	
+	
  }
 
  /* Navigation bar page choices */
@@ -83,22 +108,76 @@ nav a{
 	text-decoration: none;
 	outline: none;
 	background-color: steelblue;
+	padding: 10px 10px;
  }
 
-nav a.current {
+#current {
 	background-color: rgb(30, 79, 119);
-	padding: 15px 25px;
+	padding: 10px 10px;
 }
 
 nav a:hover{
 	background-color: rgb(183, 219, 255);
 	color: steelblue;
-	padding: 15px 25px;
+	padding: 10px 10px;
 }
 nav a:active{
 	background-color: rgb(19, 37, 94);
 	color: white;
-	padding: 15px 25px;
+	padding: 10px 10px;
+}
+
+.hamburger{
+	display: none;
+	cursor: pointer;
+}
+
+.bar{
+	display: block;
+	width: 30px;
+	height: 4px;
+	margin: 5px;
+	transition: all 0.3s ease;
+	background-color: #fff;
+}
+
+/* making the hamburger show up at 1300px */
+@media(max-width: 1150px){
+	.hamburger{
+		display:block;
+	}
+
+	/* we don't want the second (middle) bar to show up when we turn the bar into an x */
+	.hamburger.active .bar:nth-child(2){
+		opacity:0;	
+	}
+	/* now alter other two bars of hamburger to form x */
+	.hamburger.active .bar:nth-child(1){
+		transform: translateY(8.5px) rotate(45deg);	
+	}
+	.hamburger.active .bar:nth-child(3){
+		transform: translateY(-9px) rotate(-45deg);	
+	}
+
+	.nav-menu{
+		position: fixed;
+		left: -100%; /* dont wanna see it */
+		top: 70px;
+		gap: 0;
+		flex-direction:column;
+		background-color: steelblue;
+		width: 100%;
+		text-align: center;
+		transition: 0.3s
+	}
+	.nav-item{
+		margin: 16px 0;
+
+	}
+
+	.nav-menu.active{
+		left: 0;
+	}
 }
 
 /* Homepage */
@@ -151,7 +230,9 @@ nav a:active{
     background-color: whitesmoke;  
 }
 
-/*Text style for the main titles*/
+
+
+/*Text style for the main titles and the motto*/
 h1 {
     text-align: center;
     font-weight: bolder;
@@ -170,64 +251,51 @@ h1 {
     margin: 10px;
 }
 
-/*Text style for the sub-titles*/
-h2 {
-    font-weight: bolder;
+/*Text style for the sub-titles and paragraph*/
+h2{ 
+	font-weight: 700;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
-    text-align: center;
-    font-size: 200%;
-    color: white;
-}
-
-h3 {
-    font-weight: bolder;
+    text-align: left;
+    font-size: 150%;
+    color: rgb(65, 59, 59);
+  }
+ 
+h3{ 
+	font-weight: 600;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
-    text-align: center;
+    text-align: left;
     font-size: 120%;
-    color: #513C2C;
-}
-
-
-/*Color, margin and font size adjustment for paragraphs*/
-p{
-    color: #513C2C;
-    font-size: 130%;
-    margin: 10px;
-
-}
-
-.PP2023{
-	border: 5px solid #A9A9A9;
-	background-color: #F5F5F5;
-	text-align: Left;
-	padding: 20px;
-	margin-bottom: 15px;
-	margin-right: 150px;
-	margin-left: 50px;
-	margin-top: 15px;
+    color: rgb(112, 106, 106);
   }
-  
-
-.PP2022{
-	border: 5px solid #A9A9A9;
-	background-color: #F5F5F5;
-	text-align: Left;
-	padding:20px;
-	margin-bottom:15px;
-	margin-right: 150px;
-	margin-left: 50px;
-	margin-top:15px
+ 
+h4{ 
+	font-weight: 500;
+	font-style: italic; 
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 100%;
+    color: rgb(104, 97, 97)
   }
-  
+ 
+p{ 
+	font-weight: 400;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    color: rgb(85, 67, 52);
+    font-size: 110%;
+  }
+
 
 /*Display stile for the Education section*/
 .education{
     line-height: 50px;
     text-align: left;
-    padding-left: 20%;
-    padding-right:20%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-bottom: 100px;
 }
 
@@ -241,9 +309,9 @@ p{
 
 /*Display setting of the time range of studying at each schools*/
 .range{
-    /* font-family: Arial; */
 	font-style: italic;
     float: right;
+	color:rgb(30, 79, 119);
 }
 
 /*Style setting for the description under the list of education histories*/
@@ -253,16 +321,6 @@ p{
     display: block;
     clear: both;
 }
-
-
-/* https://dev.to/nehalahmadkhan/how-to-make-footer-stick-to-bottom-of-web-page-3i14, for css
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	font-family: Arial, Helvetica, sans-serif;
-} */
 
   /*Display setting for the services section*/
 .flexbox-container {
@@ -284,7 +342,7 @@ body {
 
 .wrapper {
 	margin: 50px auto;
-	width: 70%;
+	width: 80%;
 }
 
 /* Pfp from index.html */
@@ -306,31 +364,28 @@ body {
 .wrapper .text-box h1 { /* Body of text from index.html */
 	font-weight: bold;
 	color: black;
-	/* font-family: Arial; */
 }
 
 .wrapper .text-box h2 { /* Body of text from index.html */
 	color: rgb(30, 79, 119);
-	/* font-family: "Arial", "Helvetica", monospace; */
 	padding: 5px;
 }
 
 .wrapper .text-box h3 { /* Body of text from index.html */
 	color: black;
-	/* font-family: "Arial", "Helvetica", monospace; */
 	padding: 10px;
 }
 
 .wrapper .text-box h4 { /* Body of text from index.html */
 	color: black;
 	font-style: italic;
-	/* font-family: "Arial", "Helvetica", monospace; */
 }
 
 .wrapper .text-box p { /* Body of text from index.html */
 	color: steelblue;
 	line-height: 1.5;
 	padding: 2px;
+	font-size: 20px;
 } 
 
 .text_body { /* Body of text from team.html */
@@ -373,12 +428,6 @@ body {
 	font-weight: bold;
 }
 
-.row .column h2 {
-	color: black;
-	font-size: 15px;
-	font-weight: bold;
-}
-
 .row .column p {
 	color: #fff7d4;
 	font-size: 1vw;
@@ -387,14 +436,11 @@ body {
 
 .wrapper .text-box {
 	color: black;
+	display: inline-block;
 }
 
 .wrapper .text-box h1 {
 	font-size: 42 px;
-}
-
-.wrapper .text-box p {
-	font-size: 16px;
 }
 
 .pfp_drawing {
@@ -402,7 +448,6 @@ body {
 	float: right;
 	margin-right: 300px;
 }
-
 
 .TeamMember {
   text-align: center;
@@ -430,6 +475,30 @@ body {
       flex: 100%;
     }
   }
+
+
+/*Mengjie Past Projects Page*/
+/*Putting the Boxes around to separat 2023 and 2022 Projects*/
+.PP2023{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 15px;
+  }
+.PP2022{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding:20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top:40px
+  }
+
 
 /* Contact us page by Hannah */
 /* Style inputs with type="text", select elements and textareas */
@@ -475,7 +544,6 @@ input[type=text], select, textarea {
 } 
 
 .disclaimer  {
-	display: flex;
     height: 100px; /* Height of the overall section */
     background-color: steelblue;
 	width: 100%;
@@ -498,22 +566,35 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
-/* Fun facts - Steeler's page (Chloe)*/
+/* CHLOE SECTION */
+/* Steeler fun facts*/
 .funfacts {
 	text-align: center;
+	padding-bottom: 20px;
 }
 
+/* Colours from https://colorhunt.co/palette/dab88bf3e9ddfdf6ecb7cadb */
 .fact {
-  border-color: lightsteelblue;
-  background: steelblue;
-  color: white
+  border-color: #6C3428;
+  background: #DAB88B;
+  color: #6C3428;
 }
 
 .fact:hover {
-  background: white;
-  color: steelblue;
+  background: #5492c9;
+  color: #F3E9DD;
 }
 
 .meetTeam {
 	background-color: #9bb8cd;
+}
+
+/* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
+/* For all individual pet profiles if wanted! */
+img.PetProfile {
+	float: left;
+	border: 5px solid rgb(30, 79, 119);
+	border-radius: 15px;
+	margin-right: 15px;
+	box-shadow: 10px 10px 25px grey;
 }
