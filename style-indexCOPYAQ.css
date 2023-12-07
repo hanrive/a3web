@@ -81,7 +81,7 @@ ul .nav-menu{
 	margin: auto;
  }
 
-@media(max-width:2000px){
+@media(max-width:3000px){
 	.navbar_container{
 		width: 100%;
 	}
