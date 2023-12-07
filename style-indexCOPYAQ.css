@@ -69,14 +69,14 @@ body {
  }
 
 .navbar_container {
-	width: 100%;
+	width: 3000px;
 	margin: auto;
 }
 
 
 
 ul .nav-menu{
-	width: 100%;
+	width: 90%;
 	background-color: steelblue;
 	margin: auto;
  }
