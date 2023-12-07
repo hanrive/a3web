@@ -7,7 +7,7 @@
 <!-- meta is information about the document, always go inside the <head> -->
 <meta name="viewpoint" content="width=device-width, initial-scale=1"> <!-- setting the viewpoint so it looks good on all devices, w3schools -->
 <meta name="author" content="Group 11"> <!-- defining the author of the page, us, w3schools -->
-<link rel="stylesheet" type="text/css" href="css.css"/> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
+<link rel="stylesheet" type="text/css" href="Hannah.css"/> <!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
 <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- linking to favicon, the little image in the browser tab -->
 </head>
 
@@ -48,11 +48,13 @@
   </nav>
 </div>
 
+<div class="contactheader">
+      <h2> Contact Us </h2>
+</div>
 
 <!-- Can't get this to work rn, will change so the containers adjust to screen size/desktop vs mobile -->
 <div class="flex-contactus">
     <div class="flex-item-left">
-        <h2>Contact Us</h2>
         <p>Thank you for your interest in Pawfect Partners Consulting.</p>
         <p>Have a project idea? Question? Want to report a technical problem?</p>
         <p>Will out the form below and one of our associates will reach out to you very shortly.</p>
@@ -61,7 +63,7 @@
 <!-- Want to add more countries to the list, make the forms required, make a 
     page pop up thanking after submitting-->
     <div class="contact-container">
-        <form> <!-- action="action_page.php"> <!-- Change this action page -->
+        <form> <!-- action="action_page.php"> Change this action page -->
   
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -83,46 +85,14 @@
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
   
-        <button id="myBtn">Submit</button>
+        <!-- <button id="contactbtn">Submit</button> -->
 
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <button onclick="myFunction()"> Submit </button>
 
-        <!-- Modal content -->
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Thank you for submitting.</p>
-            <p>Somebody will be in contact with you very soon.</p>
-        </div>
         <script>
-            // Get the modal
-            var modal = document.getElementById("myModal");
-            
-            // Get the button that opens the modal
-            var btn = document.getElementById("myBtn");
-            
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-            
-            // When the user clicks the button, open the modal 
-            btn.onclick = function() {
-              modal.style.display = "block";
-            }
-            
-            // When the user clicks on <span> (x), close the modal
-            span.onclick = function() {
-              modal.style.display = "none";
-            }
-            
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-              if (event.target == modal) {
-                modal.style.display = "none";
-              }
-            }
-        </script>
-        </div>
-  
+          function myFunction() {
+            alert("Thank you for submitting."+"\n"+"One of our associates will be in contact with you very soon. Have a good day!");
+          }
+          </script>
         </form>
     </div>
-</div>
