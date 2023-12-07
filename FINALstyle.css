@@ -126,39 +126,52 @@ h1 {
 
 }
 
-/*Text style for the sub-titles*/
-h2 {
-    font-weight: bolder;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
-    text-align: center;
-    font-size: 200%;
-    color: #513C2C;
-}
-
-h3 {
-    font-weight: bolder;
-    margin-inline-start: 2px;
-    margin-inline-end: 2px;
-    text-align: center;
-    font-size: 120%;
-    color: #513C2C;
-}
-
+/*Text style for the motto*/
 .titledescription{
 	color: seashell;
     font-size: 130%;
     margin: 10px;
 }
 
-/*Color, margin and font size adjustment for paragraphs*/
-p{
-    color: #513C2C;
-    font-size: 130%;
-    margin: 10px;
 
-}
-  
+/*Text style for the sub-titles and paragraph*/
+h2{ 
+	font-weight: 700;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 150%;
+    color: rgb(65, 59, 59);
+  }
+
+h3{ 
+	font-weight: 600;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 120%;
+    color: rgb(112, 106, 106);
+  }
+
+h4{ 
+	font-weight: 500;
+	font-style: italic; 
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 100%;
+    color: rgb(104, 97, 97)
+  }
+
+ p{ 
+	font-weight: 400;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    color: rgb(85, 67, 52);
+    font-size: 110%;
+  }
+
 /*Display stile for the Education section*/
 .education{
     line-height: 50px;
