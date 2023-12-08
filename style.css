@@ -77,6 +77,10 @@ ul .nav-menu{
 	.navbar_container{
 		width: 100%;
 	}
+	.TeamMember {
+	text-align: center;
+	dispaly: grid;
+	}
 }
 
 
@@ -715,7 +719,7 @@ input[type=text], select, textarea {
 
 .TeamMember {
 	text-align: center;
-	dispaly: flex;
+	dispaly: grid;
 }
 
 
