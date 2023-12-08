@@ -180,11 +180,6 @@ nav a:active{
 	width: 70%;
 }
 
-/* Individual profiles */
-.profilepic {
-	width: 100;
-}
-
 /* contact button link feature */
 .button {
 	display: flex;
