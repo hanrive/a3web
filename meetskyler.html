@@ -1,97 +1,103 @@
-<!-- This is the second page, which can be directed by clicking the 'Experience' button on the navigation bar-->
 <!DOCTYPE html>
 <html lang = "en">
 <!--This is the title of the website-->
 <head>
     <meta charset="utf-8">
-    <title> Skyler </title>
+    <title>Skyler</title>
     <link rel = "stylesheet" href = "style.css">
-    
+    <script src="javascript.js"></script>
+    <!-- Created our own favicon on https://www.favicon.cc/ -->
+    <link rel="icon" type="image/x-icon" href="img/PPfavicon.ico">
 </head>
-<!-- Top top header -->
+
+<body>
+<!-- Pawfect Partners Header & Motto -->
 <header>
     <div class="backgroundheader1">
         <div class="header">
             <h1>Pawfect Partners Consulting</h1>
-            <p class="titledescription">Our motto: bring our best paw foward to accomplish</p>
+            <p class="titledescription">Our motto: Putting our best paw forward to accomplish your goals.</p>
         </div>
     </div>
     </header>
     
-    
-   <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-<div id="navbar">
-  <nav>
-	<ul>
-		<li>
-			<a href="template-index.html">Home</a>
-		</li>
-		<li>
-			<a href="team.html">Meet the Team</a>
-		</li>
-		<li>
-			<a href="services.html">Services</a>
-		</li>
-		<li>
-			<a href="pastprojects.html">Past Projects</a>
-		</li>
-		<li>
-			<a href="contactus.html">Contact Us</a>
-		</li>
-	</ul>
-  </nav>
+    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+    <div>
+      <nav class="navbar_container">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="services.html">Services</a></li>
+          <li class="nav-item"> <a href="pastprojects.html">Past Projects</a></li>
+          <li class="nav-item"><a href="meetmocha.html">Mocha</a></li>
+          <li class="nav-item"><a href="meetphoebe.html">Phoebe</a></li>
+          <li class="nav-item"><a href="meetrocky.html">Rocky</a></li>
+          <li class="nav-item"><a id="current" href="meetskyler.html">Skyler</a></li>
+          <li class="nav-item"><a href="neetsteeler.html">Steeler</a></li>
+          <li class="nav-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+
+<!-- Steeler 'About Me' section -->
+<div class="wrapper">
+    <div class="text-box">
+        <h2>Meet Skyler</h2>
+            <img class = PetProfile src="Skyler.png" alt="Skyler Bio Pic">
+            <p>Hi! I am a human geography expert. I love people! </p>
+            <p>I belive in making a positive meaningful impact on the world and by working at Pawfect Partners. I have been apart of some amazing projects.</p>
+    </div>
 </div>
 
-    
-    <!-- Text under navigation bar -->
-    <div class="wrapper">
-        <div class="text-box">
-            <h2> Skyler the Human Geography Expert </h2>
-            <img id = "imgSkyler" src="SkylerResized.jpg" alt="Dog with Christmas shirt" >
+<!-- Description list for education-->
+<div class="education">
+    <h2>Education</h2>
+        <div class="educationline">
+            <dl>
+                <dt>MSc, Spatial Analysis</dt>
+                <dd class="range">Bones University (2020)</dd>
+                <dd class="edudescript"> Published three reports on human climate migration </dd>
+            </dl>
+            <hr>
+            <dl>
+                <dt>BSc, Human Geography</dt>
+                <dd class="range">Bones University (2017)</dd>
+                <dd class="edudescript">Learned programming languages: Python, SQL, C, C++, Javascript, R </dd>
+            </dl>
         </div>
-    </div> 
+</div>
 
-    <!-- Description list for education-->
-    <div class="education">
-        <h2>Education</h2>
-            <div class="educationline">
-                <dl>
-                    <dt>MSc Spatial Analysis</dt>
-                    <dd class="range">Graudated Fall 2020</dd>
-                    <dd class="edudescript">  </dd>
-                </dl>
-                <hr>
-                <dl>
-                    <dt>BSc Human Geography</dt>
-                    <dd class="range">Graudated Fall 2018</dd>
-                </dl>
-            </div>
-    </div>
-            
-    <div class ="experience">
-        <h2> Experience </h2>
-        <h3> United Nations Geospatial Science Internship</h3>
-            <p> Spent 12 months in Switerland at World Meteorological Organization examining the relationship between human migration and climate change</p>
-        <h4> What I Accomplished </h4>
-            <ul>
-                <li>- I learned German and French</li>
-                <li>- How to utilize various software: ArcGISPro, SPSS, MATLAB, R </li>
-                <li>- Improved on programming languages: Python, SQL, C, C++, Javascript, R </li>
-                <li>- Published three reports on human climate migration </li>
-                <li>- Keynote speaker at the international meterological convention </li>
-                <li>- Expanded my worldview and my capacity to be an engaged global citizen </li>
-              </ul>  
-        
-    </div>
+<!-- Description list for education-->
+<div class="education">
+    <h2>Experience</h2>
+        <div class="educationline">
+            <dl>
+                <dt>Geospatial Science Internship</dt>
+                <dd class="range">United Nations</dd>
+                <dd class="edudescript"> Spent 12 months in Switerland at World Meteorological Organization examining the relationship 
+                    between human migration and climate change. I learned German and French. I was a keynote speaker at the international 
+                    meterological convention. Finally most importantly I expanded my worldview and my capacity to be an engaged global citizen</dd>
+            </dl>
+            <hr>
+            <dl>
+                <dt>Research Assistant </dt>
+                <dd class="range">Spatial Determinants of Health Lab</dd>
+                <dd class="edudescript"> Examined social determinates of health and the impact it has on communities in Argentina. Created a 
+                    report on projected health outcomes in Argentina for the next decade. Worked in an interdisciplinary team to provide sustainable
+                    and achievable solutions that were published in a health outcomes report archived by the Public Health department of Argentina. 
+                </dd>
+            </dl>
+        </div>
+</div>
 
 <!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
-<div class="disclaimer" id="disclaimer">
-<section>
-	<p>Pawfect Partners Consulting</p>
-	<p>Please visit our contact page if you'd like to reach out regarding our services.</p>
-</section>
+<div class="disclaimer">
+	<p id="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
 </div>
 
 </body>
-
 </html>
