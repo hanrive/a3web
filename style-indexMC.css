@@ -651,4 +651,7 @@ input[type=text], select, textarea {
   flex-direction: column;
   justify-content: space-evenly;
   }
+  .field{
+    margin-bottom: 5px;
+  }
 }
