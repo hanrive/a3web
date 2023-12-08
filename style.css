@@ -7,9 +7,9 @@
 --------------------->
 
 /*** Entire document ***/
-* {
+body {
 	background-color: #F0F8FF; 
-	font-family: Arial;
+	font-family: "Arial";
 }
 /*** Mengyuan input start ***/
 .backgroundheader1 { /* the background image for the header on index.html*/
