@@ -499,6 +499,13 @@ p{
 	margin-top:40px
   }
 
+  /*Spacing out the projects within the 2022 and 2023 the Boxes*/
+
+  .PPTextBoxes { 
+    margin-top:25px
+	
+  }
+
 
 /* Contact us page by Hannah */
 /* Style inputs with type="text", select elements and textareas */
