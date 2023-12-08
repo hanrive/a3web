@@ -1,96 +1,113 @@
-<!-- Doctype and Meta Tags -->
 <!DOCTYPE html>
-<html lang="en"> <!-- declares the language of the webpage -->
-
-<head> <!-- the <head> element is a container for metadata -->
-	<title>Meet the Team</title>
-	<!-- meta is information about the document, always go inside the <head> -->
-	<meta charset="UTF-8"> <!-- defines the character encoding for the document, UTF-8/ASCII, w3schools -->
-	<meta name="viewpoint" content="width=device-width, initial-scale=1">
-	<!-- setting the viewpoint so it looks good on all devices, w3schools -->
-	<meta name="author" content="Chloe N"> <!-- defining the author of the page, me, w3schools -->
-	<link rel="stylesheet" type="text/css" href="style-indexMC.css">
-	<!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.ico">  linking to favicon, the little image in the browser tab -->
+<html lang = "en">
+<!--This is the title of the website-->
+<!-- Author: Mengyuan Cui -->
+<head>
+    <meta charset="utf-8">
+    <title>Meet Mocha</title>
+    <!-- Created our own favicon on https://www.favicon.cc/ -->
+    <link rel="icon" type="image/x-icon" href="img/PPfavicon.ico">
+    <link rel = "stylesheet" href = "style.css">
 </head>
 
 <body>
-	<!-- the <body> element contains all the contents of an HTML document (headings, paragraphs, images, hyperlinks, tables, lists, etc.) -->
+    <!-- Pawfect Partners Header & Motto -->
+    <header>
+        <div class="backgroundheader1">
+            <div class="header">
+                <h1>Pawfect Partners Consulting</h1>
+                <p class="titledescription">Our motto: Putting our best paw forward to accomplish your goals.</p>
+            </div>
+        </div>
+    </header>
+        
+    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+    <div>
+        <nav class="navbar_container">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pastprojects.html">Past Projects</a></li>
+            <li><a class = current href="meetmocha.html">Mocha</a></li>
+            <li><a href="meetphoebe.html">Phoebe</a></li>
+            <li><a href="meetrocky.html">Rocky</a></li>
+            <li><a href="meetSkyler.html">Skyler</a></li>
+            <li><a href="meetSteeler.html">Steeler</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
 
-	<!-- Top top header -->
-	<header>
-		<div class="backgroundheader1">
-			<div class="header">
-				<h1>Pawfect Partners Consulting</h1>
-				<p class="titledescription">Putting our best paw forward to accomplish our goals.</p>
-			</div>
-		</div>
-	</header>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
 
-	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        </nav>
+    </div>
 
-	<!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-	<div id="navbar">
-		<nav>
-			<ul>
-				<li><a href="template-index.html">Home</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a class=current href="Meetmocha.html">Mocha</a></li>
-				<li><a href="Phoebe.html">Phoebe</a></li>
-				<li><a href="Meetrocky.html">Rocky</a></li>
-				<li><a href="MeetSkyler.html">Skyler</a></li>
-				<li><a href="meetSteeler.html">Steeler</a></li>
-				<li><a href="pastprojects.html">Past Projects</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-			</ul>
-		</nav>
-	</div>
-
-	<!-- Text under navigation bar -->
-	<div class="wrapper">
-		<div class="text-box">
-			<h2> Meet Mocha </h2>
+    <!-- Text under navigation bar -->
+    <div class="wrapper">
+        <div class="text-box">
+            <h2> Meet Mocha </h2>
             <img class = PetProfile src="img/image8.jpg" alt="Mocha's Photo1">
-			<div class="member-description">
-				<div>
-					<div>
-						<p>Hi! I am Mocha, your remote sensing specialist. </p>
-					</div>
+                <div class="member-description">
+                <div>
+                    <div>
+                        <p>Hi! I am Mocha, your remote sensing specialist. </p>
+                    </div>
 
-					<div>
-						<p>My past project focused on remote sensing analysis including retreiving satelite images, UAV
-							opration, image correction and classification. Remote sensing related product design. I also
-							create detailed professional maps for the clients. Feel free to contact me to discuss for future projects! </p>
-					</div>
-				</div>
-			</div>
+                    <div>
+                        <p>My past project focused on remote sensing analysis including retreiving satelite images, UAV
+                                opration, image correction and classification. Remote sensing related product design. I also
+                                create detailed professional maps for the clients. Feel free to contact me to discuss for future projects! </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Description list for education-->
+    <div class="education">
+        <h2>Education</h2>
+            <div class="educationline">
+                <dl>
+                    <dt>MSc, Remote Sensing</dt>
+                    <dd class="range">University of Pawronto2023</dd>
+                    <dd class="edudescript">Remote sensing of Canadian grasslands: using vegetation biochemistry to
+                                monitor grassland health </dd>
+                </dl>
+                <hr>
+                <dl>
+                    <dt>BSc, GIS and Environmental Science</dt>
+                    <dd class="range">University of Pawronto 2022</dd>
+                    <dd class="edudescript">Major in GIS and environmental science</dd>
+                </dl>
+            </div>
+    </div>
 
-			<!-- Description list for education-->
-			<div class="education">
-				<h2>Education</h2>
-				<div class="educationline">
-					<dl>
-						<dt>MSc, University of Pawronto</dt>
-						<dd class="range">Fall 2022-Summer 2023</dd>
-						<dd class="edudescript">Remote sensing of Canadian grasslands: using vegetation biochemistry to
-							monitor grassland health </dd>
-					</dl>
-					<hr>
-					<dl>
-						<dt>University of Pawronto</dt>
-						<dd class="range">Summer 2021-Fall 2022</dd>
-						<dd class="edudescript">Major in GIS and environmental science</dd>
-					</dl>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
-	<div class="disclaimer" id="disclaimer">
-		<p id="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
-	</div>
+    <!-- Description list for work experiences-->
+    <div class="education">
+        <h2>Experience</h2>
+            <div class="educationline">
+                <dl>
+                    <dt>Senior Remote Sensing Analyst</dt>
+                    <dd class="range">Ontario Ministry of Environment</dd>
+                    <dd class="edudescript"> Analyze data from satellite images to extract data. Lead projects and coorddinate with team members to ensure the project goals are met effeciently. </dd>
+                </dl>
+                <hr>
+                <dl>
+                    <dt>Assistant Remote Sensing Analyst</dt>
+                    <dd class="range">Paw-weather Group</dd>
+                    <dd class="edudescript"> Predict weather using data from weather satellites. Gather temperature and humidity data at various atmospheric levels. </dd>
+                </dl>
+            </div>
+    </div>
 
+
+    <!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
+    <div class="disclaimer">
+        <p id="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
+    </div>
 
 </body>
-
 </html>
