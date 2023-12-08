@@ -1,12 +1,17 @@
 /* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
 
-/* Entire document */
+<!-- -----------------
+- Owner : Hannah Rivet, Aysha Qureshi, Chloe Nevin, Mengjie Dai, Mengyuan Cui 
+- Date  : Dec 7
+- Description: This is our CSS file based on template from Hannah's personal website
+--------------------->
+
+/*** Entire document ***/
 body {
 	background-color: #F0F8FF; 
-	/* background-color: pink; */
 	font-family: Arial;
 }
-
+/*** Mengyuan input start ***/
 .backgroundheader1 { /* the background image for the header on index.html*/
 	background-image: url("img/backgroundv1.jpg");
 	/* NO-REPEAT - background image is not repeated and only displayed once */
@@ -16,17 +21,6 @@ body {
 	background-attachment: fixed; /* https://w3schools.com/css/css_background.asp, for css */
 	/* COVER - will resize the image to cover the entire container */
 	background-size: cover; /* https://w3schools.com/css/css_background.asp, for css */
-}
-
-.backgroundheader2 { /* the background image for the header on team.html*/
-	background-image: url("02_BG_Panorama.jpg");
-	/* NO-REPEAT - background image is not repeated and only displayed once */
-	background-repeat: no-repeat;
-	background-position: center top;
-	/* FIXED - background image will not scroll with the page */
-	background-attachment: fixed;
-	/* COVER - will resize the image to cover the entire container */
-	background-size: cover;
 }
 
 .header { /* the text styles for the header */
@@ -39,7 +33,7 @@ body {
 	padding: 20px;
 	background-color: SteelBlue;
 	color: white;
-	font-size: 1.5vw;
+	font-size: 20px;
 	/* font family provide a series of font types as a 'fallback' incase a browser doesn't support the initial selected font, prefer Arial but worst case the browser will choose it's own font in the monospace text family */
 }
 
@@ -51,7 +45,10 @@ body {
 	 margin: 0;
 	 box-sizing: border-box;
  }
- nav{
+/*** Mengyuan input end ***/
+
+/*** Aysha input end ***/
+nav{
 	 width: 100%; 
 	 display: flex;
 	 align-items: center;
@@ -60,7 +57,7 @@ body {
 	 position: sticky;
 	 top: 251px;
 	 padding: 15px 25px;
-	 font-size: 0.8vw;
+	 font-size: 20px;
 	 backdrop-filter: blur(8px);
 	 box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
  }
@@ -81,6 +78,7 @@ ul .nav-menu{
 		width: 100%;
 	}
 }
+
 
 li{
 	list-style: none;
@@ -175,50 +173,9 @@ nav a:active{
 	}
 }
 
-/* Homepage */
-.teamMembers {
-	width: 70%;
-}
+/*** Aysha input end ***/
 
-/* contact button link feature */
-.button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	padding: 10px 20px;
-	height: 100%;
-	width: 100%;
-	border: none;
-	outline: none;
-	border-radius: 4px;
-	background: seashell;
-	color:slategray;
-	font-weight: 300;
-  }
-  
-  /* button/toggle hover feature and color change */
-  .button:hover {
-	background: #550505;
-  }
-  
-  /*Display setting for the services section*/
-  .flexbox-container {
-    display:flex;
-    justify-content:center;
-}
-
-/*The design of the items inside the boxes*/
-.flexbox-item {
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-    width:200px;
-    margin:10px;
-    border: 2px solid #513C2C;
-    background-color: whitesmoke;  
-}
-
+/*** Mengyuan input start ***/
 /*Text style for the main titles and the motto*/
 h1 {
     text-align: center;
@@ -236,7 +193,9 @@ h1 {
     font-size: 20px;
     margin: 10px;
 }
+/*** Mengyuan input end ***/
 
+/*** Mengjie input start ***/
 /*Text style for the sub-titles and paragraph*/
 h2{ 
 	font-weight: 700;
@@ -274,8 +233,9 @@ p{
     color: rgb(85, 67, 52);
     font-size: 110%;
   }
+/*** Mengjie input end ***/
 
-/* Company Timeline */
+/*** Timeline: Mengyuan input start ***/
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline */
 
 /* The actual timeline (the vertical ruler) */
@@ -413,8 +373,9 @@ p{
     left: 0%;
     }
   }
+/*** Timelie: Mengyuan input end ***/
 
-
+/*** Mengyuan input start ***/
   /* https://www.w3schools.com/tags/tag_button.asp */
   .specialfields{
     margin-top: 15px;
@@ -481,53 +442,18 @@ p{
     display: block;
     clear: both;
 }
+/*** Mengyuan input end ***/
 
-  /*Display setting for the services section*/
-.flexbox-container {
-    display:flex;
-    justify-content:center;
-}
-
-/*The design of the items inside the boxes*/
-.flexbox-item {
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-    width:200px;
-    margin:10px;
-    border: 2px solid #513C2C;
-    background-color: whitesmoke;  
-}
-
+/*** Hannah input start ***/
 .wrapper {
 	margin: 50px auto;
 	width: 80%;
 }
 
-/* Pfp from index.html */
-.wrapper .pfp {
-	max-width: 300px;
-	height: auto;
-	float: left;
-	margin-right: 30px;
-}
-
-.wrapper .pfp_drawing1 {
-	max-width: 100px;
-	height: auto;
-	float: right;
-	margin-right: 200px;
-	margin-top: 250px;
-}
-
-.wrapper .text-box h1 { 
-	font-weight: bold;
-	color: black;
-}
-
 .wrapper .text-box h2 { 
 	color: rgb(30, 79, 119);
 	padding-bottom: 25px;
+	padding-top: 25px;
 	text-align: center;
 	font-size: 40px;
 }
@@ -537,10 +463,6 @@ p{
 	padding: 10px;
 }
 
-.wrapper .text-box h4 { 
-	color: black;
-	font-style: italic;
-}
 
 .wrapper .text-box p { 
 	color: steelblue;
@@ -554,6 +476,10 @@ p{
 	margin-bottom: 50px;
 	text-align: center;
 }
+
+/*** Hannah input end ***/
+
+/*** Chloe input start ***/
 
 /* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp, for css */
 * {
@@ -575,7 +501,7 @@ p{
 /* end */
 
 .text_body {
-	font-size: 1.3vw;
+	font-size: 20px;
 }
 
 /* Applies to the Our Team section fonts */
@@ -591,9 +517,11 @@ p{
 
 .row .column p {
 	color: white;
-	font-size: 1vw;
+	font-size: 20px;
 }
 /* End of Our Team section */
+/*** Chloe input end ***/
+
 
 .wrapper .text-box {
 	color: black;
@@ -601,19 +529,12 @@ p{
 }
 
 .wrapper .text-box h1 {
-	font-size: 42 px;
+	font-size: 42px;
 }
 
-.pfp_drawing {
-	max-width: 100px;
-	float: right;
-	margin-right: 300px;
-}
+/*** Chloe input ends ***/
 
-.TeamMember {
-  text-align: center;
-}
-
+/*** Mengyuan input start ***/
 /* Responsive design for Pet Profile pics so text goes underneath  when page is smaller*/
 @media screen and (max-width: 800px) {
 	.wrapper {
@@ -633,9 +554,11 @@ p{
       flex: 100%;
     }
   }
+/*** Mengyuan input end ***/
 
-/*Mengjie Past Projects Page*/
-/*Putting the Boxes around to separat 2023 and 2022 Projects*/
+
+/*Mengjie input start*/
+/*Putting the Boxes around to separate 2023 and 2022 Projects and services*/
 .PP2023{
 	border: 5px solid #A9A9A9;
 	background-color: #F5F5F5;
@@ -656,11 +579,14 @@ p{
 	margin-top:40px
   }
 
-/*Spacing out the projects within the 2022 and 2023 the Boxes*/
+/*Spacing out the text within the 2022 and 2023 section and services*/
 .PPTextBoxes { 
     margin-top:25px
   }
 
+/*Mengjie input ends*/
+
+/* Hannah input start */
 /* Contact us page by Hannah */
 /* Contact Us Page specific */
 /* Style inputs with type="text", select elements and textareas */
@@ -695,9 +621,9 @@ input[type=text], select, textarea {
 .flex-item-left {
   flex: 50%;
   padding: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 150px;
-text-align: left;
+  text-align: left;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -721,7 +647,9 @@ input[type=text], select, textarea {
     flex: 50%;
   }
 /* End of contact us page specific */
+/* Hannah input start */
 
+/* Chloe input start */
 /* Disclaimer ribbon at footer of all pages */
 #disclaimertext {
 	background-color: steelblue;
@@ -753,11 +681,6 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
-#submit-button{
-  cursor: pointer;
-}
-
-/* Chloe CSS */
 /* Steeler fun facts*/
 .funfacts {
 	text-align: center;
@@ -787,6 +710,15 @@ input[type=text], select, textarea {
 	background-color: #9bb8cd;
 }
 
+.TeamMember {
+  text-align: center;
+}
+
+
+.teamMembers {
+	width: 70%;
+}
+
 /* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
 /* For all individual pet profiles if wanted! */
 img.PetProfile {
@@ -796,4 +728,5 @@ img.PetProfile {
 	margin-right: 15px;
 	box-shadow: 10px 10px 25px grey;
 }
-/* End Chloe */
+/* Chloe input end */
+
