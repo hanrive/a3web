@@ -31,7 +31,7 @@ body {
 	/* display and padding add the background colour around the text to only be around the text */
 	display: inline-block; /* https://w3schools.com/css/css_inline-block.asp */
 	padding: 20px;
-	background-color: SteelBlue;
+	background-color: rgb(30, 79, 119);
 	color: white;
 	font-size: 20px;
 	/* font family provide a series of font types as a 'fallback' incase a browser doesn't support the initial selected font, prefer Arial but worst case the browser will choose it's own font in the monospace text family */
@@ -246,6 +246,7 @@ p{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto ;
+	color: rgb(30, 79, 119);
   }
 
   
@@ -267,6 +268,7 @@ p{
     position: relative;
     background-color: inherit;
     width: 50%;
+	  border: 2px solid rgb(30, 79, 119);
   }
 
   .container.right .content h3 {
