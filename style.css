@@ -7,7 +7,7 @@
 --------------------->
 
 /*** Entire document ***/
-body {
+* {
 	background-color: #F0F8FF; 
 	font-family: Arial;
 }
@@ -663,7 +663,6 @@ input[type=text], select, textarea {
     background-color: steelblue;
 	width: 100%;
     color: white;
-    /* font-family: Arial; */
     font-size: 15px;
     text-align: left;
     /* padding: 30px; To create space from the edges of the border and the text */
