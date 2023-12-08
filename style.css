@@ -770,10 +770,12 @@ input[type=text], select, textarea {
   color: #F3E9DD;
 }
 
+/*
 .funfacts h2, h3, P {
 	text-align: center;
 	padding: 15px;
 }
+*/
 
 .meetTeam {
 	background-color: #9bb8cd;
