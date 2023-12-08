@@ -92,6 +92,7 @@ li a{
 	margin-left: 40px;
 	text-decoration: none;
 	display:flex;
+	border-radius: 8px;
  }
 
  /* Navigation bar page choices */
