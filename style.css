@@ -621,7 +621,7 @@ p{
 	}
    
 	.PetProfile, .member-description {
-		width: 250px;
+		max-width: 250px;
     height: auto;
 		margin-bottom: 10px;
 	}
