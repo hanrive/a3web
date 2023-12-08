@@ -1,13 +1,15 @@
-<!-- This is the second page, which can be directed by clicking the 'Experience' button on the navigation bar-->
 <!DOCTYPE html>
 <html lang = "en">
 <!--This is the title of the website-->
 <head>
     <meta charset="utf-8">
-    <title>Steeler</title>
-    <link rel = "stylesheet" href = "style-indexCOPY.css">
+    <title>Meet Steeler</title>
+    <!-- Created our own favicon on https://www.favicon.cc/ -->
+    <link rel="icon" type="image/x-icon" href="img/PPfavicon.ico">
+    <link rel = "stylesheet" href = "style.css">
 </head>
 
+<body>
 <!-- Pawfect Partners Header & Motto -->
 <header>
     <div class="backgroundheader1">
@@ -18,31 +20,27 @@
     </div>
     </header>
     
-    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-    <div>
-      <nav class="navbar_container">
-        <ul class="nav-menu">
-          <li class="nav-item"><a href="template-index.html">Home</a></li>
-          <li class="nav-item"><a href="services.html">Services</a></li>
-          <li class="nav-item"><a href="Meetmocha.html">Mocha</a></li>
-          <li class="nav-item"><a href="Phoebe.html">Phoebe</a></li>
-          <li class="nav-item">
-            <a id="current" href="Meetrocky.html">Rocky</a>
-          </li>
-          <li class="nav-item"><a href="MeetSkyler.html">Skyler</a></li>
-          <li class="nav-item"><a href="MeetSteeler.html">Steeler</a></li>
-          <li class="nav-item">
-            <a href="pastprojects.html">Past Projects</a>
-          </li>
-          <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
+<!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+<div>
+    <nav class="navbar_container">
+    <ul class="nav-menu">
+        <li><a href="home.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pastprojects.html">Past Projects</a></li>
+          <li><a href="meetmocha.html">Mocha</a></li>
+          <li><a href="meetphoebe.html">Phoebe</a></li>
+          <li><a href="meetrocky.html">Rocky</a></li>
+          <li><a href="meetSkyler.html">Skyler</a></li>
+          <li><a class = current href="meetSteeler.html">Steeler</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
     </div>
+    </nav>
+</div>
 
 <!-- Steeler 'About Me' section -->
 <div class="wrapper">
@@ -108,7 +106,7 @@
 	<p id="fact3" style="display:none">I am the first ever Golden Retriever to become a certified hydrologist in Canada.</p>
 	<button class = "btn fact" type="button" onclick="myFunction('fact3')">Fun Fact #3</button>
 	
-	<script src="FINALjavascript.js"></script>
+	<script src="javascript.js"></script>
 </div>
 
 <!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
