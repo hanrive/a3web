@@ -53,7 +53,7 @@ nav{
 	 display: flex;
 	 align-items: center;
 	 justify-content: space-between;
-	 background-color: steelblue;
+	 background-color: rgb(30, 79, 119);
 	 position: sticky;
 	 top: 251px;
 	 padding: 15px 25px;
@@ -69,7 +69,7 @@ nav{
 
 ul .nav-menu{
 	width: 90%;
-	background-color: steelblue;
+	background-color: rgb(30, 79, 119);
 	margin: auto;
  }
 
@@ -83,7 +83,7 @@ ul .nav-menu{
 li{
 	list-style: none;
 	display: inline-block;
-	background-color: steelblue;
+	background-color: rgb(30, 79, 119);
 	justify-content: space-between;
  }
 li a{
@@ -100,12 +100,13 @@ nav a{
 	letter-spacing: 1px;
 	text-decoration: none;
 	outline: none;
-	background-color: steelblue;
+	background-color: rgb(30, 79, 119);
 	padding: 10px 10px;
  }
 
 #current {
-	background-color: rgb(30, 79, 119);
+	background-color: seashell;
+	color: rgb(30, 79, 119);
 	padding: 10px 10px;
 }
 
@@ -158,7 +159,7 @@ nav a:active{
 		top: 70px;
 		gap: 0;
 		flex-direction:column;
-		background-color: steelblue;
+		background-color: rgb(30, 79, 119);
 		width: 100%;
 		text-align: center;
 		transition: 0.3s
@@ -184,11 +185,12 @@ h1 {
     margin-inline-end: 2px;
     font-size:50px;
     color: seashell;
-	background-color: steelblue;
+	background-color: rgb(30, 79, 119);
 }
 
 .titledescription{
-	color: lightsteelblue;
+	color: white;
+	font-weight: bold;
 	background-color: steelblue;
     font-size: 20px;
     margin: 10px;
@@ -388,8 +390,8 @@ p{
 
 .field {
   border: none;
-  background-color: rgba(176, 196, 222, 0.5);;
-  color: steelblue;
+  background-color: rgba(176, 196, 222, 0.5);
+  color: rgb(30, 79, 119);
   padding: 20px 35px;
   font-size: 16px;
 }
@@ -465,7 +467,7 @@ p{
 
 
 .wrapper .text-box p { 
-	color: steelblue;
+	color: rgb(30, 79, 119);
 	line-height: 1.5;
 	padding: 2px;
 	font-size: 20px;
@@ -516,7 +518,7 @@ p{
 }
 
 .row .column p {
-	color: white;
+	color: black;
 	font-size: 20px;
 }
 /* End of Our Team section */
@@ -652,7 +654,7 @@ input[type=text], select, textarea {
 /* Chloe input start */
 /* Disclaimer ribbon at footer of all pages */
 #disclaimertext {
-	background-color: steelblue;
+	background-color: rgb(30, 79, 119);
 	color: white;
 	width: 100%;
 	padding-top: 45px;
@@ -660,7 +662,7 @@ input[type=text], select, textarea {
 
 .disclaimer  {
     height: 100px; /* Height of the overall section */
-    background-color: steelblue;
+    background-color: rgb(30, 79, 119);
 	width: 100%;
     color: white;
     font-size: 15px;
@@ -706,7 +708,7 @@ input[type=text], select, textarea {
 */
 
 .meetTeam {
-	background-color: #9bb8cd;
+	background-color: #F5F5F5;
 }
 
 .TeamMember {
@@ -715,7 +717,7 @@ input[type=text], select, textarea {
 
 
 .teamMembers {
-	width: 70%;
+	width: 60%;
 }
 
 /* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
