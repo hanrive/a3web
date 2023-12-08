@@ -1,90 +1,73 @@
-<!-- Not finished, going to copy template for Mocha's page that we created together -->
+<!-- -----------------
+- Owner : Hannah Rivet
+- Date  : Dec 7
+- Description: Phoebe's about me page
+--------------------->
 
 <!-- Doctype and Meta Tags -->
 <!DOCTYPE html>
 <html lang="en"> <!-- declares the language of the webpage -->
 
 <head> <!-- the <head> element is a container for metadata -->
-	<title>Meet Phoebe!</title>
+	<title>Phoebe</title>
 	<!-- meta is information about the document, always go inside the <head> -->
 	<meta charset="UTF-8"> <!-- defines the character encoding for the document, UTF-8/ASCII, w3schools -->
 	<meta name="viewpoint" content="width=device-width, initial-scale=1">
 	<!-- setting the viewpoint so it looks good on all devices, w3schools -->
 	<meta name="author" content="Hannah Rivet"> <!-- defining the author of the page, me, w3schools -->
-	<link rel="stylesheet" type="text/css" href="FINALstyle.css">
+	<!-- Created our own favicon on https://www.favicon.cc/ -->
+	<link rel="icon" type="image/x-icon" href="img/PPfavicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
 	<!-- <link rel="icon" type="image/x-icon" href="favicon.ico">  linking to favicon, the little image in the browser tab -->
 </head>
 
 <body>
-	<!-- the <body> element contains all the contents of an HTML document (headings, paragraphs, images, hyperlinks, tables, lists, etc.) -->
-
-	<!-- Top top header -->
-	<header>
-		<div class="backgroundheader1">
-			<div class="header">
-				<h1>Pawfect Partners Consulting</h1>
-				<p class="titledescription">Putting our best paw forward to accomplish your goals.</p>
-			</div>
-		</div>
-	</header>
-
-	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-	<!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-	<div id="navbar">
-		<nav>
-			<ul>
-				<li><a class=current href="template-index.html">Home</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="Meetmocha.html">Mocha</a></li>
-				<li><a href="MeetPhoebe.html">Phoebe</a></li>
-				<li><a href="Meetrocky.html">Rocky</a></li>
-				<li><a href="MeetSkyler.html">Skyler</a></li>
-				<li><a href="meetSteeler.html">Steeler</a></li>
-				<li><a href="pastprojects.html">Past Projects</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-			</ul>
-		</nav>
-	</div>
-
-<!-- Text under navigation bar -->
-<div class="wrapper">
-	<div class="phoebe-photo-1">
-
-<!-- Photo not working 
-		<img src="a3web/img/Phoebe1-resize.jpg" alt="Candid photo of Phoebe in the wild">
-	</div>
-	</div>
-	<div class="text-box">
-		<h2> Phoebe </h2>
-        <h2> How I can best help you bring your dreams to life! </h2>
-		<h2> Introduction  </h2> 
-		<p> Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! 
-			Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! 
-			Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! </p>
-        <h2> Education </h2>
-        <dl>
-            <dt> School 1 </dt>
-            <dd>- blah blah blah </dd>
-            <dt> School 2 </dt>
-            <dd>- blah blah blah </dd>
-          </dl>
-        <h2> Experience </h2>
-        <p> Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! 
-			Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! 
-			Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! Filler! </p>
+<!-- Pawfect Partners Header & Motto -->
+<header>
+    <div class="backgroundheader1">
+        <div class="header">
+            <h1>Pawfect Partners Consulting</h1>
+            <p class="titledescription">Our motto: Putting our best paw forward to accomplish your goals.</p>
+        </div>
     </div>
-</div> -->
+    </header>
+    
+    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+    <div>
+      <nav class="navbar_container">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="template-index.html">Home</a></li>
+          <li class="nav-item"><a href="services.html">Services</a></li>
+          <li class="nav-item"><a href="Meetmocha.html">Mocha</a></li>
+          <li class="nav-item"><a href="Phoebe.html">Phoebe</a></li>
+          <li class="nav-item">
+            <a id="current" href="Meetrocky.html">Rocky</a>
+          </li>
+          <li class="nav-item"><a href="MeetSkyler.html">Skyler</a></li>
+          <li class="nav-item"><a href="MeetSteeler.html">Steeler</a></li>
+          <li class="nav-item">
+            <a href="pastprojects.html">Past Projects</a>
+          </li>
+          <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
 
-<!-- Text under navigation bar -->
+<!-- About Phoebe -->
 <div class="wrapper">
-    <div class="text-box">
-        <h2> Meet Phoebe! </h2>
-            <img src="img/Phoebe1-resize.jpg" alt="Phoebe's profile photo" style="width:75%">
-            <p>bio</p>
-
-
+	<div class="text-box">
+		<h2>Meet Phoebe</h2>
+			<img class = PetProfile src="img/phoebe.png" alt="Phoebe Bio Pic">
+			<p>bio</p>
+	</div>
+</div>
+	
 <!-- Description list for education-->
 <div class="education">
     <h2>Education</h2>
@@ -102,9 +85,11 @@
             </dl>
         </div>
 </div>
-        
-<div class ="experience">
+    
+<!-- Description list for experience-->
+<div class="education">
     <h2>Experience</h2>
+        <div class="educationline">
             <dl>
                 <dt>Chief Digging Officer</dt>
                 <dd class="range">Rideau Valley Conservation Authority</dd>
@@ -118,7 +103,15 @@
                 <p>Conducting research in forestry and GIS, retrieving data, and assisting in the analysis of spatial patterns within the forest environment.</p>
                 <dd class="edudescript">  </dd>
             </dl>
+		</div>
 </div>
-	
+
+<!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
+<div class="disclaimer">
+	<p id="disclaimertext">©Pawfect Partners Consulting Group 2023</p>
+</div>
+
 </body>
 </html>
+
+<!--*** End Owner: Hannah Rivet *** -->
