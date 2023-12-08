@@ -1,15 +1,15 @@
 /* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
 
-<!-- -----------------
+/*** Group Bio Start ***/
 - Owner : Hannah Rivet, Aysha Qureshi, Chloe Nevin, Mengjie Dai, Mengyuan Cui 
 - Date  : Dec 7
 - Description: This is our CSS file based on template from Hannah's personal website
---------------------->
+/*** Group Bio End ***/
 
 /*** Entire document ***/
 body {
 	background-color: #F0F8FF; 
-	font-family: Arial, sans-serif;
+	font-family: Arial;
 }
 /*** Mengyuan input start ***/
 .backgroundheader1 { /* the background image for the header on index.html*/
