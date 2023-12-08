@@ -52,7 +52,7 @@ body {
 	 box-sizing: border-box;
  }
  nav{
-/* 	 width: 100%; */
+	 width: 100%; 
 	 display: flex;
 	 align-items: center;
 	 justify-content: space-between;
@@ -68,17 +68,19 @@ body {
  }
 
 .navbar_container {
-	width: 1600px;
+	width: 3000px;
 	margin: auto;
 }
 
- ul .nav-menu{
-	width: 100%;
+
+
+ul .nav-menu{
+	width: 90%;
 	background-color: steelblue;
 	margin: auto;
  }
 
-@media(max-width:2000px){
+@media(max-width:3000px){
 	.navbar_container{
 		width: 100%;
 	}
@@ -90,14 +92,15 @@ li{
 	background-color: steelblue;
 	justify-content: space-between;
  }
- li a{
+li a{
 	margin-left: 40px;
 	text-decoration: none;
 	display:flex;
 	
+	
  }
 
-/* Navigation bar page choices */
+ /* Navigation bar page choices */
 nav a{
 	color: white;
 	font-size: 20px;
@@ -105,23 +108,23 @@ nav a{
 	text-decoration: none;
 	outline: none;
 	background-color: steelblue;
-	padding: 15px 25px;
+	padding: 10px 10px;
  }
- 
+
 #current {
 	background-color: rgb(30, 79, 119);
-	padding: 15px 25px;
+	padding: 10px 10px;
 }
- 
+
 nav a:hover{
 	background-color: rgb(183, 219, 255);
 	color: steelblue;
-	padding: 15px 25px;
+	padding: 10px 10px;
 }
 nav a:active{
 	background-color: rgb(19, 37, 94);
 	color: white;
-	padding: 15px 25px;
+	padding: 10px 10px;
 }
 
 .hamburger{
@@ -177,7 +180,6 @@ nav a:active{
 	}
 }
 
-
 /* Homepage */
 .teamMembers {
 	width: 70%;
@@ -228,7 +230,9 @@ nav a:active{
     background-color: whitesmoke;  
 }
 
-/*Text style for the main titles*/
+
+
+/*Text style for the main titles and the motto*/
 h1 {
     text-align: center;
     font-weight: bolder;
@@ -247,60 +251,44 @@ h1 {
     margin: 10px;
 }
 
-/*Text style for the sub-titles*/
-h2 {
-    font-weight: bolder;
+/*Text style for the sub-titles and paragraph*/
+h2{ 
+	font-weight: 700;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
-    text-align: center;
-    font-size: 200%;
-    color: rgb(30, 79, 119);
-	padding-bottom: 15px;
-}
-
-h3 {
-    font-weight: bolder;
+    text-align: left;
+    font-size: 150%;
+    color: rgb(65, 59, 59);
+  }
+ 
+h3{ 
+	font-weight: 600;
     margin-inline-start: 2px;
     margin-inline-end: 2px;
-    text-align: center;
+    text-align: left;
     font-size: 120%;
-    color: #513C2C;
-	padding-bottom: 15px;
-}
-
-
-/*Color, margin and font size adjustment for paragraphs*/
-p{
-    color: #513C2C;
-    font-size: 130%;
-    margin: 10px;
-
-}
-
-/* Project Page
-.PP2023{
-	border: 5px solid #A9A9A9;
-	background-color: #F5F5F5;
-	text-align: Left;
-	padding: 20px;
-	margin-bottom: 15px;
-	margin-right: 150px;
-	margin-left: 50px;
-	margin-top: 15px;
+    color: rgb(112, 106, 106);
   }
-  
-
-.PP2022{
-	border: 5px solid #A9A9A9;
-	background-color: #F5F5F5;
-	text-align: Left;
-	padding:20px;
-	margin-bottom:15px;
-	margin-right: 150px;
-	margin-left: 50px;
-	margin-top:15px
+ 
+h4{ 
+	font-weight: 500;
+	font-style: italic; 
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    font-size: 100%;
+    color: rgb(104, 97, 97)
   }
-  
+ 
+p{ 
+	font-weight: 400;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    text-align: left;
+    color: rgb(85, 67, 52);
+    font-size: 110%;
+  }
+
 
 /*Display stile for the Education section*/
 .education{
@@ -487,6 +475,30 @@ p{
       flex: 100%;
     }
   }
+
+
+/*Mengjie Past Projects Page*/
+/*Putting the Boxes around to separat 2023 and 2022 Projects*/
+.PP2023{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding: 20px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 15px;
+  }
+.PP2022{
+	border: 5px solid #A9A9A9;
+	background-color: #F5F5F5;
+	text-align: left;
+	padding:20px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top:40px
+  }
+
 
 /* Contact us page by Hannah */
 /* Style inputs with type="text", select elements and textareas */

@@ -9,9 +9,8 @@
 	<meta name="viewpoint" content="width=device-width, initial-scale=1">
 	<!-- setting the viewpoint so it looks good on all devices, w3schools -->
 	<meta name="author" content="Chloe N"> <!-- defining the author of the page, me, w3schools -->
-	<link rel="stylesheet" type="text/css" href="style-indexMC.css">
-	<!-- linking my external css document to this html document, w3schools.com/html/html_css.asp -->
-	<!-- <link rel="icon" type="image/x-icon" href="favicon.ico">  linking to favicon, the little image in the browser tab -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- linking external css document to this html document, w3schools.com/html/html_css.asp -->
 </head>
 
 <body>
@@ -33,17 +32,22 @@
 	<div id="navbar">
 		<nav>
 			<ul>
-				<li><a class=current href="template-index.html">Home</a></li>
+				<li><a class=current href="home.html">Home</a></li>
 				<li><a href="services.html">Services</a></li>
-				<li><a href="Meetmocha.html">Mocha</a></li>
-				<li><a href="Phoebe.html">Phoebe</a></li>
-				<li><a href="Meetrocky.html">Rocky</a></li>
-				<li><a href="MeetSkyler.html">Skyler</a></li>
-				<li><a href="meetSteeler.html">Steeler</a></li>
+				<li><a href="meetmocha.html">Mocha</a></li>
+				<li><a href="meetphoebe.html">Phoebe</a></li>
+				<li><a href="meetrocky.html">Rocky</a></li>
+				<li><a href="meetskyler.html">Skyler</a></li>
+				<li><a href="meetsteeler.html">Steeler</a></li>
 				<li><a href="pastprojects.html">Past Projects</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
 			</ul>
 		</nav>
+		<div class="hamburger">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</div>
 	</div>
 
 	<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -73,22 +77,13 @@
 
 			<h2> Our Specialized Fields </h2>
 			<div class="specialfields">
-				<p id="fact1" style="display:none">I'm trying to learn java script!</p>
-				<button class="btn fact" type="button" onclick="myFunction('fact1')">Geology</button>
-
-				<p id="fact2" style="display:none">I'm trying to learn java script222222222222222!</p>
-				<button class="btn fact" type="button" onclick="myFunction('fact2')">Hydrology</button>
-
-				<p id="fact3" style="display:none">I'm trying to learn java script333333333333333!</p>
-				<button class="btn fact" type="button" onclick="myFunction('fact3')">Remote Sensing</button>
-
-				<p id="fact3" style="display:none">I'm trying to learn java script333333333333333!</p>
-				<button class="btn fact" type="button" onclick="myFunction('fact3')">Forestry</button>
-
-				<p id="fact3" style="display:none">I'm trying to learn java script333333333333333!</p>
-				<button class="btn fact" type="button" onclick="myFunction('fact3')">Map Design</button>
+				<button class="field">Geology</button>
+				<button class="field">Hydrology</button>
+				<button class="field">Remote Sensing</button>
+				<button class="field">Forestry</button>
+				<button class="field">Map Design</button>
 			</div>
-
+				
 
 			<h2> Pawfect Partners Milestones</h2>
 			<div class="timeline">

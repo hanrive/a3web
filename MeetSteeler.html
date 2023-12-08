@@ -13,32 +13,41 @@
     <div class="backgroundheader1">
         <div class="header">
             <h1>Pawfect Partners Consulting</h1>
-            <p class="titledescription">Our motto: Putting our best paw forward to accomplish our goals.</p>
+            <p class="titledescription">Our motto: Putting our best paw forward to accomplish your goals.</p>
         </div>
     </div>
     </header>
     
-<!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
-<div id="navbar">
-  <nav>
-	<ul>
-		<li><a href="template-index.html">Home</a></li>
-		<li><a href="services.html">Services</a></li>
-		<li><a href="Meetmocha.html">Mocha</a></li>
-        <li><a href="Phoebe.html">Phoebe</a></li>
-        <li><a href="Meetrocky.html">Rocky</a></li>
-        <li><a href="MeetSkyler.html">Skyler</a></li>
-        <li><a class = current href="meetSteeler.html">Steeler</a></li>
-        <li><a href="pastprojects.html">Past Projects</a></li>
-		<li><a href="contactus.html">Contact Us</a></li>
-	</ul>
-  </nav>
-</div>
+    <!-- Navigation bar text, https://www.youtube.com/watch?v=e5wjLZzMmYM for html -->
+    <div>
+      <nav class="navbar_container">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="template-index.html">Home</a></li>
+          <li class="nav-item"><a href="services.html">Services</a></li>
+          <li class="nav-item"><a href="Meetmocha.html">Mocha</a></li>
+          <li class="nav-item"><a href="Phoebe.html">Phoebe</a></li>
+          <li class="nav-item">
+            <a id="current" href="Meetrocky.html">Rocky</a>
+          </li>
+          <li class="nav-item"><a href="MeetSkyler.html">Skyler</a></li>
+          <li class="nav-item"><a href="MeetSteeler.html">Steeler</a></li>
+          <li class="nav-item">
+            <a href="pastprojects.html">Past Projects</a>
+          </li>
+          <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
 
 <!-- Steeler 'About Me' section -->
 <div class="wrapper">
     <div class="text-box">
-        <h2>Steeler</h2>
+        <h2>Meet Steeler</h2>
             <img class = PetProfile src="steelerResized.png" alt="Steeler Bio Pic">
             <p>Hi! I am a hydrologist, but my interests don't stop there. I'm interested in natural hazards, human geography, and soils!</p>
             <p>Over the last 3 dog years I have worked very hard to establish myself in the consulting world. I am very passionate in the work we do here at Pawfect Partners.</p>
@@ -99,7 +108,7 @@
 	<p id="fact3" style="display:none">I am the first ever Golden Retriever to become a certified hydrologist in Canada.</p>
 	<button class = "btn fact" type="button" onclick="myFunction('fact3')">Fun Fact #3</button>
 	
-	<script src="steeler.js"></script>
+	<script src="FINALjavascript.js"></script>
 </div>
 
 <!-- Section disclaimer, https://www.geeksforgeeks.org/how-to-create-links-to-sections-within-the-same-page-in-html/ for html -->
