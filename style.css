@@ -753,6 +753,10 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
+#submit-button{
+  cursor: pointer;
+}
+
 /* Chloe CSS */
 /* Steeler fun facts*/
 .funfacts {
