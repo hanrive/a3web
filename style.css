@@ -63,16 +63,12 @@ body {
 	 font-size: 0.8vw;
 	 backdrop-filter: blur(8px);
 	 box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
-
-	
  }
 
 .navbar_container {
 	width: 3000px;
 	margin: auto;
 }
-
-
 
 ul .nav-menu{
 	width: 90%;
@@ -96,8 +92,6 @@ li a{
 	margin-left: 40px;
 	text-decoration: none;
 	display:flex;
-	
-	
  }
 
  /* Navigation bar page choices */
@@ -216,7 +210,6 @@ nav a:active{
   .flexbox-container {
     display:flex;
     justify-content:center;
-
 }
 
 /*The design of the items inside the boxes*/
@@ -230,8 +223,6 @@ nav a:active{
     background-color: whitesmoke;  
 }
 
-
-
 /*Text style for the main titles and the motto*/
 h1 {
     text-align: center;
@@ -241,7 +232,6 @@ h1 {
     font-size:50px;
     color: seashell;
 	background-color: steelblue;
-
 }
 
 .titledescription{
@@ -296,15 +286,20 @@ p{
     text-align: left;
     padding-left: 10%;
     padding-right: 10%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
+.education h2 {
+	color: rgb(30, 79, 119);
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 30px;
+}
 
 /*Display setting for the name of fake schools under the Education list*/
 .educationline dt{
     font-weight: bold;
     float: left;
-	/* font-family: Arial; */
 }
 
 /*Display setting of the time range of studying at each schools*/
@@ -316,7 +311,6 @@ p{
 
 /*Style setting for the description under the list of education histories*/
 .edudescript{
-    /* font-family: Arial; */
 	margin-left: 0px;
     display: block;
     clear: both;
@@ -326,7 +320,6 @@ p{
 .flexbox-container {
     display:flex;
     justify-content:center;
-
 }
 
 /*The design of the items inside the boxes*/
@@ -361,34 +354,36 @@ p{
 	margin-top: 250px;
 }
 
-.wrapper .text-box h1 { /* Body of text from index.html */
+.wrapper .text-box h1 { 
 	font-weight: bold;
 	color: black;
 }
 
-.wrapper .text-box h2 { /* Body of text from index.html */
+.wrapper .text-box h2 { 
 	color: rgb(30, 79, 119);
-	padding: 5px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-size: 40px;
 }
 
-.wrapper .text-box h3 { /* Body of text from index.html */
+.wrapper .text-box h3 { 
 	color: black;
 	padding: 10px;
 }
 
-.wrapper .text-box h4 { /* Body of text from index.html */
+.wrapper .text-box h4 { 
 	color: black;
 	font-style: italic;
 }
 
-.wrapper .text-box p { /* Body of text from index.html */
+.wrapper .text-box p { 
 	color: steelblue;
 	line-height: 1.5;
 	padding: 2px;
 	font-size: 20px;
 } 
 
-.text_body { /* Body of text from team.html */
+.text_body { 
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
@@ -429,7 +424,7 @@ p{
 }
 
 .row .column p {
-	color: #fff7d4;
+	color: white;
 	font-size: 1vw;
 }
 /* End of Our Team section */
@@ -452,6 +447,18 @@ p{
 .TeamMember {
   text-align: center;
 }
+
+/* Responsive design for Pet Profile pics so text goes underneath  when page is smaller*/
+@media screen and (max-width: 800px) {
+	.wrapper {
+		flex-direction: column;
+	}
+   
+	.PetProfile, .member-description {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+  }
 
 /* Need to fix this by Hannah */
 .flex-contactus {
@@ -476,7 +483,6 @@ p{
     }
   }
 
-
 /*Mengjie Past Projects Page*/
 /*Putting the Boxes around to separat 2023 and 2022 Projects*/
 .PP2023{
@@ -497,6 +503,11 @@ p{
 	margin-right: 40px;
 	margin-left: 40px;
 	margin-top:40px
+  }
+
+/*Spacing out the projects within the 2022 and 2023 the Boxes*/
+.PPTextBoxes { 
+    margin-top:25px
   }
 
 
@@ -535,7 +546,7 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
-
+/* Disclaimer ribbon at footer of all pages */
 #disclaimertext {
 	background-color: steelblue;
 	color: white;
@@ -566,7 +577,7 @@ input[type=text], select, textarea {
   cursor: pointer;
 }
 
-/* CHLOE SECTION */
+/* Chloe CSS */
 /* Steeler fun facts*/
 .funfacts {
 	text-align: center;
@@ -585,6 +596,11 @@ input[type=text], select, textarea {
   color: #F3E9DD;
 }
 
+.funfacts h2, h3, P {
+	text-align: center;
+	padding: 15px;
+}
+
 .meetTeam {
 	background-color: #9bb8cd;
 }
@@ -598,3 +614,4 @@ img.PetProfile {
 	margin-right: 15px;
 	box-shadow: 10px 10px 25px grey;
 }
+/* End Chloe */
