@@ -674,8 +674,12 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.contactheader {
+.contactheader h2{
   margin-top: 25px;
+  text-align: center;
+}
+
+.contactheader p{
   text-align: center;
 }
 
@@ -709,6 +713,7 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .contact-container {
     border-radius: 5px;
+    border: 4px solid #ccc;
     background-color: #f2f2f2;
     padding: 20px;
     flex: 50%;
